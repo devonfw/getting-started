@@ -1,3 +1,4 @@
+// Please include this preamble in every page!
 :toc: macro
 toc::[]
 :idprefix:
@@ -9,4 +10,7 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
+
 = Home
+// The '=' denotes the document title. It should match the filename and must not be used for headings!
+// For more information visit: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/

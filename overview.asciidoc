@@ -1,0 +1,34 @@
+// Please include this preamble in every page!
+:toc: macro
+toc::[]
+:idprefix:
+:idseparator: -
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+= Overview
+
+This guide will help you to do your first steps with the *devon framework* often reffered as *devonfw* or short just *devon*.
+
+There are four main sources of information for devon.
+
+TIP: You do not need to follow the links. They are just here for the overview, so you know where to look for them. Just continue reading this guide. It will guide you step by step through the process of getting to know devon.
+
+. The first collection of GitHub repositories called link:https://github.com/devonfw[devonfw]. That is were most information for this tutorial comes from. Here you will find the Ide-setup, the JumpTheQueue tutorial and the My-Thai-star setup. 
+
+. The devon homepage with some link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[videos] (a bit outdated) .
+
+. The http://de-mucevolve02/files/devonfw/current/[devon-guide] as pdf (>900 pages). You can get it from the homepage as well. In the next chapter you will just read the introduction to devon from this guide. It exists as a repository as well.
+
+. The second collection of GitHub repositories called link:https://github.com/devonfw-forge[devon-forge]. It is a repository where new features are developed. You will not need it for these tutorial.
+
+link:Home.asciidoc[**Home**]
+
+
+
+

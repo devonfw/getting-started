@@ -16,17 +16,19 @@ endif::[]
 // For more information visit: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 
 == Overview
-A short link:overview.asciidoc[**overview**] of the information sources which are there for devon.
+link:overview.asciidoc[Here] you can find short overview of the information provided in this repository.
 
 == Introduction
-The first link:introduction.asciidoc[**introduction**] of getting to know devon.
+If don't quite know what devon is all about yet, you can find a short introduction to the framework, its core ideas and the software stack behind it link:introduction.asciidoc[here].
 
-== IDE setup
-How easy can the link:ide-setup.asciidoc[**IDE setup**] be?
+== IDE Setup
+If you want to work with devon, you should start by setting up a link:ide-setup.asciidoc[devon IDE / environment].
 
-== JumpTheQueue tutorial 
+== JumpTheQueue Tutorial
+link:jumpthequeue-design[JumpTheQueue] is a small devon application, which you can recreate yourself by following a step-by-step tutorial. This will teach you more about the devon components, layers and workflow.
 
-== My-Thai-Star setup
-link:my-thai-star-setup.asciidoc[My-Thai-Star ] is a example app.
+== MyThaiStar setup
+link:mythaistar-setup.asciidoc.[MyThaiStar] is a more complex sample app, that demonstrates the full capabilities of the devon stack and framework.
 
-== Further information
+== Further Information
+link:further-information[Here] you can find links to advanced devon topics and other useful resources.

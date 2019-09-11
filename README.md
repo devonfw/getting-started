@@ -4,4 +4,4 @@ WELCOME! This repository provides an entry-point for new users of the devon fram
 
 ___
 
-To get started visit [Home](Home.asciidoc).
+To get started visit [Home](documentation/Home.asciidoc).

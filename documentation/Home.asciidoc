@@ -25,10 +25,10 @@ If don't quite know what devon is all about yet, you can find a short introducti
 If you want to work with devon, you should start by setting up a link:ide-setup.asciidoc[devon IDE / environment].
 
 == JumpTheQueue Tutorial
-link:jumpthequeue-design[JumpTheQueue] is a small devon application, which you can recreate yourself by following a step-by-step tutorial. This will teach you more about the devon components, layers and workflow.
+link:jumpthequeue-design.asciidoc[JumpTheQueue] is a small devon application, which you can recreate yourself by following a step-by-step tutorial. This will teach you more about the devon components, layers and workflow.
 
 == MyThaiStar setup
-link:mythaistar-setup.asciidoc.[MyThaiStar] is a more complex sample app, that demonstrates the full capabilities of the devon stack and framework.
+link:mythaistar-setup.asciidoc[MyThaiStar] is a more complex sample app, that demonstrates the full capabilities of the devon stack and framework.
 
 == Further Information
-link:further-information[Here] you can find links to advanced devon topics and other useful resources.
+link:further-information.asciidoc[Here] you can find links to advanced devon topics and other useful resources.

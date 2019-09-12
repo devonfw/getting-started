@@ -27,8 +27,6 @@ TIP: You do not need to follow the links. They are just here for the overview, s
 
 . The second collection of GitHub repositories called link:https://github.com/devonfw-forge[devon-forge]. It is a repository where new features are developed. You will not need it for these tutorial.
 
-link:Home.asciidoc[**Home**]
-
 
 
 

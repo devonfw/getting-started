@@ -1,17 +1,17 @@
-=== link:Home.asciidoc[Home]
+=== link:Home[Home]
 
-==== link:overview.asciidoc[Overview]
+==== link:overview[Overview]
 
-==== link:introduction.asciidoc[Introduction]
+==== link:introduction[Introduction]
 
-//==== link:jumpthequeue-design.asciidoc[JumpTheQueue Tutorial]
+//==== link:jumpthequeue-design[JumpTheQueue Tutorial]
 
 ==== JumpTheQueue Tutorial
-* link:jumpthequeue-design.asciidoc[Design]
-* link:jumpthequeue-setup.asciidoc[Setup]
-* link:jumpthequeue-components.asciidoc[Components]
-* link:jumpthequeue-layers.asciidoc[Layers]
+* link:jumpthequeue-design[Design]
+* link:jumpthequeue-setup[Setup]
+* link:jumpthequeue-components[Components]
+* link:jumpthequeue-layers[Layers]
 
-==== link:mythaistar-setup.asciidoc[MyThaiStar Setup]
+==== link:mythaistar-setup[MyThaiStar Setup]
 
-==== link:further-information.asciidoc[Further Information]
+==== link:further-information[Further Information]

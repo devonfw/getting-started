@@ -29,5 +29,3 @@ The usage is described on link:https://github.com/devonfw/ide/blob/master/docume
 If you want to have more information about e.g. use help function, go to the folder link:https://github.com/devonfw/ide/tree/master/documentation[documentation] in the repository and select the topic. 
 
 TIP: Bookmark the site with the folder dokumentation.
-
-link:Home.asciidoc[**Home**]

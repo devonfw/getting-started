@@ -25,5 +25,3 @@ Please read the link:https://github.com/devonfw/devonfw-guide/blob/master/genera
 You can watch these link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[videos]. 
 
 WARNING: Please remember, they are outdated and there is no longer the OASP4j part. We will explain in the next step how to setup the new ide. It is easy.
-
-link:Home.asciidoc[**Home**]

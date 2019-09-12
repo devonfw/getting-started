@@ -11,24 +11,12 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-= My-Thai-Star setup
+= My-Thai-Star Setup
 
-My-Thai-Star is an example application for devon. As long as the side how to setup the application ist not there, we describe here how to setup the application.
+NOTE: My-Thai-Star is an example application for devon. As long as the side how to setup the application is not there, we describe here how to setup and run the application. It is an example app developed for a fictional restaurant.
 
-We assume you have successfully completet the Ide setup.
+We assume you have successfully completed the IDE setup.
 
-If you have intstalled 'Git Bash' please skip the step 1.
-
-
-. Get a Git client. For Windows use:
-* ** https://gitforwindows.org/ ** 
-+
-IMPORTANT: Install with option "Use Git from the Windows Command Prompts" but *without* Windows Explorer integration.
-+
-
-image::images/git-for-windows.png[Installing Git for Windows, 450]
-* Download TortoiseGit from ** https://tortoisegit.org/ **
-+
 . In the root directory of the devon distribution, right click and select "Open Devon CMD shell here" and checkout the Git repositories you'll need into `workspaces/main` with the following commands:
 +
 [source,bash]
@@ -43,16 +31,16 @@ git clone https://github.com/devonfw/my-thai-star.git
 +
 . Execute `devon eclipse create-script`.
 +
-. Go to the root folder of the devon distribution and run `eclispe-main.bat`
+. Go to the root folder of the devon distribution and run `eclipse-main.bat`
 +
 . *In Eclipse* select `File > Import > Maven > Existing Maven Projects` and then choose the cloned projects from your workspace by clicking the `Browse` button and select the folder structure (`workspaces\my-thai-star\java\mtsj`).
 . *Execute* the application by starting the ´SpringBootApp´. Select the class and click the right mouse button. In the context menu select the entry `Run as => Java Application` (or `Debug as ...`). The application starts up and creates log entries in the Eclipse Console Tab.
 +
-image::images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
+image:images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
 +
 . Open 'devon cmd shell'.
 +
-. Goto the folder `workspaces\main\my-thai-star\angular` in the `console.bat` terminal.
+. Goto the folder `workspaces\main\my-thai-star\angular` in the 'devon cmd shell' terminal.
 +
 . Execute the command: `yarn install`. Wait till everything is finished.
 +

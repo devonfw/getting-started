@@ -12,14 +12,13 @@ ifdef::env-github[]
 endif::[]
 
 = Overview
-
 This guide will help you to do your first steps with the *devon framework* often reffered as *devonfw* or short just *devon*.
 
 There are four main sources of information for devon.
 
 TIP: You do not need to follow the links. They are just here for the overview, so you know where to look for them. Just continue reading this guide. It will guide you step by step through the process of getting to know devon.
 
-. The first collection of GitHub repositories called link:https://github.com/devonfw[devonfw]. That is were most information for this tutorial comes from. Here you will find the Ide-setup, the JumpTheQueue tutorial and the My-Thai-star setup. 
+. The first collection of GitHub repositories called link:https://github.com/devonfw[devonfw]. That is were most information for this tutorial comes from. Here you will find the Ide-setup, the JumpTheQueue tutorial and the My-Thai-Star setup. 
 
 . The devon homepage with some link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[videos] (a bit outdated) .
 
@@ -27,6 +26,7 @@ TIP: You do not need to follow the links. They are just here for the overview, s
 
 . The second collection of GitHub repositories called link:https://github.com/devonfw-forge[devon-forge]. It is a repository where new features are developed. You will not need it for these tutorial.
 
+The next chapter will be a brief introduction to devonfw. Then you learn how to install and use the IDE. Equipped with this knowledge, you will be guided through a tutorial called JumpTheQueue. In this you get to know devon4j and devon4ng, both parts of devonfw. After completing this, the My-Thai-Star app will be introduced to you. Finally you will find a collection of further information.
 
 
 

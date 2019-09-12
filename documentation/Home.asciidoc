@@ -27,7 +27,7 @@ If you want to work with devon, you should start by setting up a link:ide-setup[
 == JumpTheQueue Tutorial
 link:jumpthequeue-design[JumpTheQueue] is a small devon application, which you can recreate yourself by following a step-by-step tutorial. This will teach you more about the devon components, layers and workflow.
 
-== MyThaiStar setup
+== MyThaiStar Setup
 link:mythaistar-setup[MyThaiStar] is a more complex sample app, that demonstrates the full capabilities of the devon stack and framework.
 
 == Further Information

@@ -12,12 +12,27 @@ ifdef::env-github[]
 endif::[]
 
 = Introduction
-These are the first encounters with devon.
 
-== The Introduction to the devon-guide
-Please read the link:https://github.com/devonfw/devonfw-guide/blob/master/general/getting-started-what-is-devonfw.asciidoc[introduction].
+== Framework Introduction
+To gain an understanding of what devon is all about and why it was initially developed, please read the introduction of the devon guide: link:https://github.com/devonfw/devonfw-guide/blob/master/general/getting-started-what-is-devonfw.asciidoc[What is devonfw?]
 
-== Videos (outdated)
-You can watch these link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[videos]. 
+In the following sections we will give you a brief intoduction to the major components and tools of devon and provide you with links for further reading:
 
-WARNING: Please remember, they are outdated and there is no longer the OASP4j part. We will explain in the next step how to setup the new ide. It is easy.
+=== devon4j
+* The _backend_ of most devon applications is built with Java. To speed up the development process, the link:https://github.com/devonfw/devon4j[devon4j] stack provides pre-selected frameworks and tools that ensure a secure backend-design which conforms with current standards.
+
+To learn more about devon4j, please refer to the devon4j link:https://github.com/devonfw/devon4j/blob/develop/documentation/Home.asciidoc[wiki].
+
+=== devon4ng
+* The _frontend_ of most devon applications is based around the Angular framework. For this reason, link:https://github.com/devonfw/devon4ng[devon4ng] provides an Angular application template as well as an application template combining Angular and Ionic (another frontend framework). It also contains various samples, which explain aspects like routing, theming, internationalization, Electron-support, etc.
+
+To learn more about devon4ng, please refer to the devon4ng link:https://github.com/devonfw/devon4ng/blob/develop/documentation/home.asciidoc[wiki].
+
+=== CobiGen
+* "The _Code-based Incremental Generator_ link:https://github.com/devonfw/tools-cobigen[CobiGen] is build as an extensible framework for incremental code generation." New devon users will most likely interact with the CobiGen Eclipse plugin to automatically generate Java classes based on certain data structures and their respective entity classes (as demonstrated in the link:jumpthequeue.asciidoc[JumpTheQueue] tutorial app).
+
+To learn more about CobiGen, please refer to the CobiGen link:https://github.com/devonfw/tools-cobigen/blob/master/documentation/Home.asciidoc[wiki].
+
+'''
+
+*Next Step:* link:ide.asciidoc[IDE Setup]

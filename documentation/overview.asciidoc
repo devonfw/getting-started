@@ -12,21 +12,30 @@ ifdef::env-github[]
 endif::[]
 
 = Overview
-This guide will help you to do your first steps with the *devon framework* often reffered as *devonfw* or short just *devon*.
 
-There are four main sources of information for devon.
+== Resource Overview
+Listed below are the major sources of information related to *devonfw*:
 
-TIP: You do not need to follow the links. They are just here for the overview, so you know where to look for them. Just continue reading this guide. It will guide you step by step through the process of getting to know devon.
+=== Repositories
+* The GitHub repositories within the link:https://github.com/devonfw[devonfw organization] contain the source code, documentation and wikis of individual devon projects. Projects in early development and prototypes are located in the link:https://github.com/devonfw-forge[devonfw forge]. They usually remain there until they are ready for a broader release or for use in production.
 
-. The first collection of GitHub repositories called link:https://github.com/devonfw[devonfw]. That is were most information for this tutorial comes from. Here you will find the Ide-setup, the JumpTheQueue tutorial and the My-Thai-Star setup. 
+=== Distribution
+* The devon link:http://de-mucevolve02/files/devonfw/[distribution] contains the complete collection of software used by the devon framework. It is provided in the form of an archive (`.zip` for Windows / `.tar.gz` for Linux/macOS). The distribution contains all tools you'll need to develop fully fledged devon applications.
 
-. The devon homepage with some link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[videos] (a bit outdated) .
+IMPORTANT: All links posted on this page need to be publicly accessible!!! +
+The link:https://repo.maven.apache.org/maven2/com/devonfw/[Maven repo] should be linked here instead of `de-mucevolve02`.
 
-. The http://de-mucevolve02/files/devonfw/current/[devon-guide] as pdf (>900 pages). You can get it from the homepage as well. In the next chapter you will just read the introduction to devon from this guide. It exists as a repository as well.
+=== Guide
+* The devon link:https://github.com/devonfw/devonfw-guide/raw/master/devonfw_guide.pdf[guide] is a PDF document with over 900 (!) pages. It represents the totality of devon's documentation. It is always up-to-date (due to being automatically generated) and included in each release of the distribution. The guide also has its own GitHub link:https://github.com/devonfw/devonfw-guide[repository].
 
-. The second collection of GitHub repositories called link:https://github.com/devonfw-forge[devon-forge]. It is a repository where new features are developed. You will not need it for these tutorial.
+=== Community
+* The devon community is active on Microsoft link:https://teams.microsoft.com/l/team/19%3af92c481ec30345a28a5434bc530a882a%40thread.skype/conversations?groupId=503df57a-d454-4eec-b3bc-d6d87c7c24f8&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61[Teams] and link:https://www.yammer.com/capgemini.com/#/threads/inGroup?type=in_group&feedId=5030942[Yammer]. If you run into any problems with devon, have general questions, feedback or suggestions, please feel free to post them in the respective sections there.
 
-The next chapter will be a brief introduction to devonfw. Then you learn how to install and use the IDE. Equipped with this knowledge, you will be guided through a tutorial called JumpTheQueue. In this you get to know devon4j and devon4ng, both parts of devonfw. After completing this, the My-Thai-Star app will be introduced to you. Finally you will find a collection of further information.
+=== Homepage
+* The official link:http://www.devonfw.com/[homepage] represents a major public presence for the devon framework and is meant to attract new users and customers. It also hosts some link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[video tutorials] for developers.
 
+'''
 
+TIP: You don't need to follow every link in the text right away. These links exist to provide more in-depth information for a second read-through. Just following the link at the bottom of each page will guide you through the whole process of getting to know devon.
 
+*Next Step:* link:introduction.asciidoc[Framework Introduction]

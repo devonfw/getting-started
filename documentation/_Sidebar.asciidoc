@@ -1,17 +1,11 @@
 === link:Home[Home]
 
-==== link:overview[Overview]
+==== link:overview[Resource Overview]
 
-==== link:introduction[Introduction]
+==== link:introduction[Framework Introduction]
 
-//==== link:jumpthequeue-design[JumpTheQueue Tutorial]
+==== link:jumpthequeue[JumpTheQueue Tutorial App]
 
-==== JumpTheQueue Tutorial
-* link:jumpthequeue-design[Design]
-* link:jumpthequeue-setup[Setup]
-* link:jumpthequeue-components[Components]
-* link:jumpthequeue-layers[Layers]
-
-==== link:mythaistar-setup[MyThaiStar Setup]
+==== link:mythaistar[MyThaiStar Sample App]
 
 ==== link:further-information[Further Information]

@@ -11,39 +11,41 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-= My-Thai-Star Setup
+= MyThaiStar
 
-NOTE: My-Thai-Star is an example application for devon. As long as the side how to setup the application is not there, we describe here how to setup and run the application. It is an example app developed for a fictional restaurant.
+== MyThaiStar Sample App
+MyThaiStar is a more complex sample app, that demonstrates the full capabilities of the devon stack and framework.
 
-We assume you have successfully completed the IDE setup.
+You should take a look at the project structure and familiarize yourself with it, since most devon projects follow this exemplary implementation. On this page we will describe how to launch the app on your system, so you can explore the different functionalities it offers.
 
-. In the root directory of the devon distribution, right click and select "Open Devon CMD shell here" and checkout the Git repositories you'll need into `workspaces/main` with the following commands:
+TIP: We assume you have successfully completed the IDE setup previously.
+
+. In the root directory of the devon distribution, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:
 +
 [source,bash]
 -----
 cd workspaces/main
 git clone https://github.com/devonfw/my-thai-star.git
 -----
-+
-. Go to the MyThaiStar folder using `cd my-thai-star`.
-+ 
-. Execute `devon eclipse ws-up`.
-+
-. Execute `devon eclipse create-script`.
-+
-. Go to the root folder of the devon distribution and run `eclipse-main.bat`
-+
-. *In Eclipse* select `File > Import > Maven > Existing Maven Projects` and then choose the cloned projects from your workspace by clicking the `Browse` button and select the folder structure (`workspaces\my-thai-star\java\mtsj`).
-. *Execute* the application by starting the ´SpringBootApp´. Select the class and click the right mouse button. In the context menu select the entry `Run as => Java Application` (or `Debug as ...`). The application starts up and creates log entries in the Eclipse Console Tab.
+
+. Perform: `cd my-thai-star`
+
+. Execute: `devon eclipse ws-up`
+
+. Execute: `devon eclipse create-script`
+
+. Go to the root folder of the distribution and run `eclipse-main.bat`
+
+. In Eclipse navigate to `File > Import > Maven > Existing Maven Projects`, then import the cloned project from your workspace by clicking the "Browse" button and selecting `/workspaces/my-thai-star/java/mtsj/`.
+
+. Run the backend by right-clicking `SpringBootApp.java` and selecting `Run as > Java Application` in the context menu. The backend will start up and create log entries in the Eclipse Console tab.
 +
 image:images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
-+
-. Open 'devon cmd shell'.
-+
-. Goto the folder `workspaces\main\my-thai-star\angular` in the 'devon cmd shell' terminal.
-+
-. Execute the command: `yarn install`. Wait till everything is finished.
-+
-. Execute the command: `yarn start`. 
-+ 
-. Once started, the sample application runs on http://localhost:4200/restaurant[], login with waiter/waiter and have a look at the services list provided.
+
+. Return to your command shell and perform: `cd angular`
+
+. Execute: `yarn install`
+
+. Execute: `yarn start`
+ 
+. Once started, the frontend will be available at link:http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password "*waiter*" and take a look at the different functionalities provided by MyThaiStar.

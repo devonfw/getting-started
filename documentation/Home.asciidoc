@@ -12,22 +12,28 @@ ifdef::env-github[]
 endif::[]
 
 = Home
-The following pages are meant to guide you in your inital discovery of the *devon framework* (often abbreviated "devonfw" and referred to as "devon").
+The following pages will guide you in your inital discovery of the *devon framework* (often abbreviated "devonfw" and referred to as "devon").
 
-== link:overview.asciidoc[Resource Overview]
-Here you will find a collection of the major devonfw resources.
+TIP: Just follow the link at the bottom of this and each subsequent page to visit the listed pages in their intended order.
 
-== link:introduction.asciidoc[Framework Introduction]
-If don't quite know what devon is all about yet, you will find a short introduction to the framework, its core ideas and the software stack behind it here.
+== Resource Overview
+You will find a collection and short descriptions of the major devonfw resources link:overview.asciidoc[here].
 
-== link:ide.asciidoc[IDE Setup]
-If you want to start working with devon, you'll have to set up the development environment on your system first, which is explained here.
+== Framework Introduction
+If don't quite know what devon is all about yet, you will find a short introduction to the framework, its core ideas and the software stack behind it link:introduction.asciidoc[here].
 
-== link:jumpthequeue.asciidoc[JumpTheQueue Tutorial App]
-JumpTheQueue is a small devon application, which you can build yourself by following a step-by-step tutorial. This will teach you more about the components, layers and workflow of devon.
+== IDE Setup
+If you want to start working with devon, you'll have to set up the development environment on your system first, which is explained link:ide.asciidoc[here].
 
-== link:mythaistar.asciidoc[MyThaiStar Sample App]
-MyThaiStar is a more complex sample app, that demonstrates the full capabilities of the devon stack and framework.
+== JumpTheQueue Tutorial App
+link:jumpthequeue.asciidoc[JumpTheQueue] is a small application, which you can build yourself by following a step-by-step tutorial. This will teach you more about the components, layers and workflow of devon.
 
-== link:further-information.asciidoc[Further Information]
-Here you can find links to advanced devon topics and other resources closely related to the devon framework.
+== MyThaiStar Sample App
+link:mythaistar.asciidoc[MyThaiStar] is a more complex sample app, that demonstrates the full capabilities of the devon stack and framework.
+
+== Further Information
+You can find links to advanced devon topics and other resources closely related to the devon framework link:further-information.asciidoc[here].
+
+'''
+
+*First Step:* link:overview.asciidoc[Resource Overview]

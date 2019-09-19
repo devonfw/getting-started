@@ -14,7 +14,15 @@ endif::[]
 = Overview
 
 == Resource Overview
-Listed below are the major sources of information related to *devonfw*:
+Listed below are the major resources that provide information related to *devonfw*:
+
+* Repositories
+* Distribution
+* Guide
+* Community
+* Homepage
+
+TIP: You don't need to follow every link in the text right away. These links exist to provide more in-depth information for a second read-through in case you revisit this guide.
 
 === Repositories
 The GitHub repositories within the link:https://github.com/devonfw[devonfw organization] contain the source code, documentation and wikis of individual devon projects. Projects in early development and prototypes are located in the link:https://github.com/devonfw-forge[devonfw forge]. They usually remain there until they are ready for a broader release or for use in production.
@@ -22,7 +30,7 @@ The GitHub repositories within the link:https://github.com/devonfw[devonfw organ
 === Distribution
 The devon link:http://de-mucevolve02/files/devonfw/[distribution] contains the complete collection of software used by the devon framework. It is provided in the form of an archive (`.zip` for Windows / `.tar.gz` for Linux/macOS). The distribution contains all tools you'll need to develop fully fledged devon applications.
 
-IMPORTANT: All links posted on this page need to be publicly accessible!!! +
+IMPORTANT: All links posted on this page need to be publicly accessible! +
 The link:https://repo.maven.apache.org/maven2/com/devonfw/[Maven repo] should be linked here instead of `de-mucevolve02`.
 
 === Guide
@@ -33,8 +41,6 @@ The devon community is active on Microsoft link:https://teams.microsoft.com/l/te
 
 === Homepage
 The official link:http://www.devonfw.com/[homepage] represents a major public presence for the devon framework and is meant to attract new users and customers. It also hosts link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[video tutorials] for new developers.
-
-TIP: You don't need to follow every link in the text right away. These links exist to provide more in-depth information for a second read-through in case you revisit this guide.
 
 '''
 

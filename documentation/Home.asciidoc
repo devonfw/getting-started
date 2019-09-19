@@ -12,7 +12,7 @@ ifdef::env-github[]
 endif::[]
 
 = Home
-The following pages will guide you in your inital discovery of the *devon framework* (often abbreviated "devonfw" and referred to as "devon").
+The following pages will guide you in your inital discovery of the *devon framework* (often abbreviated *devonfw* and simply referred to as *devon*).
 
 TIP: Just follow the link at the bottom of this and each subsequent page to visit the listed pages in their intended order.
 

@@ -52,4 +52,4 @@ image:images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
 
 '''
 
-*Next Step:* link:further-information.asciidoc[Further Information]
+*Final Step:* link:further-information.asciidoc[Further Information]

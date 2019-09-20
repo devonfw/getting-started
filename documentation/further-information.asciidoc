@@ -41,3 +41,8 @@ link:https://github.com/devonfw/sonar-devon-plugin[LINK]
 
 === MrChecker (E2E Testing)
 link:https://github.com/devonfw/devonfw-testing[LINK]
+
+'''
+
+*You did it!* This is the final page of the _getting started_ guide. +
+We reccomend you bookmark this page and other links you found useful during reading.

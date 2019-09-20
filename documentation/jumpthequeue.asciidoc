@@ -1,4 +1,4 @@
-// Please include this preamble in every page!
+// Please include this p reamble in every page!
 :toc: macro
 toc::[]
 :idprefix:
@@ -18,7 +18,7 @@ JumpTheQueue is a small application, which you can build yourself by following a
 
 The tutorial is located in the documentation of the JumpTheQueue repository. Your entry point will be the the wiki link:https://github.com/devonfw/devonfw-tutorial-sources/blob/Documentation_for_new_IDE/documentation/Home.asciidoc[home] page.
 
-WARNING: To-Do: update link to the `jump-the-queue` repo wiki home!
+IMPORTANT: To-Do: Update link to the JumpTheQueue wiki home!
 
 TIP: The tutorial assumes you have successfully completed the IDE setup previously.
 

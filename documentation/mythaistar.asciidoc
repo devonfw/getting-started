@@ -9,6 +9,7 @@ ifdef::env-github[]
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
+:imagesdir: https://raw.githubusercontent.com/phschimm/getting-started/master/documentation/
 endif::[]
 
 = MyThaiStar
@@ -52,4 +53,4 @@ image:images/run-mythaistar.png[Running the MyThaiStar Backend, width="800", lin
 
 '''
 
-*Final Step:* link:further-information.asciidoc[Further Information]
+*Final Step:* link:further-information[Further Information]

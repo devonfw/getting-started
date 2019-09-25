@@ -41,7 +41,10 @@ git clone https://github.com/devonfw/my-thai-star.git
 
 . Run the backend by right-clicking `SpringBootApp.java` and selecting `Run as > Java Application` in the context menu. The backend will start up and create log entries in the Eclipse Console tab.
 +
-image:images/run-mythaistar.png[Running the MyThaiStar Backend, width="800", link="images/run-mythaistar.png"]
+image:images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
++
+IMPORTANT: Adjust `:imagesdir:` URL in the preamble of this page. +
+Otherwise images won't show up in the wiki at all!
 
 . Return to your command shell and perform: `cd angular`
 

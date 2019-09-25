@@ -4,6 +4,8 @@
 
 ==== link:introduction[Framework Introduction]
 
+==== link:ide[IDE Setup]
+
 ==== link:jumpthequeue[JumpTheQueue Tutorial App]
 
 ==== link:mythaistar[MyThaiStar Sample App]

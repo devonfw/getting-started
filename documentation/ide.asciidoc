@@ -33,4 +33,4 @@ To gain more insight into the motivation behind the devon IDE, you should read t
 
 '''
 
-*Next Step:* link:jumpthequeue.asciidoc[JumpTheQueue Tutorial App]
+*Next Step:* link:jumpthequeue[JumpTheQueue Tutorial App]

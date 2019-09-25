@@ -46,4 +46,4 @@ The official link:http://www.devonfw.com/[homepage] represents a major public pr
 
 '''
 
-*Next Step:* link:introduction.asciidoc[Framework Introduction]
+*Next Step:* link:introduction[Framework Introduction]

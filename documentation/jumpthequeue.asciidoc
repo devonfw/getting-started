@@ -24,4 +24,4 @@ TIP: The tutorial assumes you have successfully completed the IDE setup previous
 
 '''
 
-*Next Step:* link:mythaistar.asciidoc[MyThaiStar Sample App]
+*Next Step:* link:mythaistar[MyThaiStar Sample App]

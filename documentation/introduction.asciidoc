@@ -37,4 +37,4 @@ To learn more about CobiGen, please refer to the CobiGen link:https://github.com
 
 '''
 
-*Next Step:* link:ide.asciidoc[IDE Setup]
+*Next Step:* link:ide[IDE Setup]

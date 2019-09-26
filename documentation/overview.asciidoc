@@ -32,9 +32,6 @@ The GitHub repositories within the link:https://github.com/devonfw[devonfw organ
 [caption=""]
 image::images/devonfw-org.svg[devonfw Repository Overview, 800]
 
-IMPORTANT: Adjust `:imagesdir:` URL in the preamble of this page. +
-Otherwise images won't show up in the wiki at all!
-
 === Distribution
 The devon link:http://de-mucevolve02/files/devonfw/[distribution] contains the complete collection of software used by the devon framework. It is provided in the form of an archive (`.zip` for Windows / `.tar.gz` for Linux/macOS). The distribution contains all tools you'll need to develop fully fledged devon applications.
 

@@ -9,7 +9,7 @@ ifdef::env-github[]
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
-:imagesdir: https://raw.githubusercontent.com/phschimm/getting-started/master/documentation/
+:imagesdir: https://raw.githubusercontent.com/devonfw/getting-started/master/documentation/
 endif::[]
 
 = Overview

@@ -29,7 +29,7 @@ TIP: You don't need to follow every link in this section right away. These links
 The GitHub repositories within the link:https://github.com/devonfw[devonfw organization] contain the source code, documentation and wikis of individual devon projects. Projects in early development and prototypes are located in the link:https://github.com/devonfw-forge[devonfw forge]. They usually remain there until they are ready for a broader release or for use in production.
 
 .An overview of the devonfw Organization Repositories.
-[caption="", link=https://github.com/devonfw]
+[caption=""]
 image::images/devonfw-org.svg[devonfw Repository Overview, 800]
 
 IMPORTANT: Adjust `:imagesdir:` URL in the preamble of this page. +

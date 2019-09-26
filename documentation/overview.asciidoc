@@ -9,6 +9,7 @@ ifdef::env-github[]
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
+:imagesdir: https://raw.githubusercontent.com/phschimm/getting-started/master/documentation/
 endif::[]
 
 = Overview
@@ -27,7 +28,12 @@ TIP: You don't need to follow every link in this section right away. These links
 === Repositories
 The GitHub repositories within the link:https://github.com/devonfw[devonfw organization] contain the source code, documentation and wikis of individual devon projects. Projects in early development and prototypes are located in the link:https://github.com/devonfw-forge[devonfw forge]. They usually remain there until they are ready for a broader release or for use in production.
 
-IMPORTANT: To-Do: Create a (visual) overview of the various GitHub repos.
+.An overview of the devonfw Organization Repositories.
+[caption="", link=https://github.com/devonfw]
+image::images/devonfw-org.svg[devonfw Repository Overview, 800]
+
+IMPORTANT: Adjust `:imagesdir:` URL in the preamble of this page. +
+Otherwise images won't show up in the wiki at all!
 
 === Distribution
 The devon link:http://de-mucevolve02/files/devonfw/[distribution] contains the complete collection of software used by the devon framework. It is provided in the form of an archive (`.zip` for Windows / `.tar.gz` for Linux/macOS). The distribution contains all tools you'll need to develop fully fledged devon applications.

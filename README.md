@@ -1,7 +1,5 @@
-# getting-started
+# devon Getting Started Guide
 
-This repository provides the primary entry-point for new users of the devon framework.
+This repository is the primary entry-point for new devon users.
 
-___
-
-To get started visit the wiki [Home](documentation/Home.asciidoc).
+Please visit the [wiki](https://github.com/devonfw/getting-started/wiki) to get started.

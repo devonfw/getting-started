@@ -29,7 +29,7 @@ Please refer to the link:https://github.com/devonfw/ide/blob/master/documentatio
 Please refer to the link:https://github.com/devonfw/ide/blob/master/documentation/cli.asciidoc[commandlets] section in the documentation to learn more about the available devon commands.
 
 === Further Reading
-To gain more insight into the motivation behind the devon IDE, you should read the link:https://github.com/devonfw/ide/blob/master/documentation/features.asciidoc[feature] section in the documentation.
+To gain more insight into the motivation behind the devon IDE, you should read the link:https://github.com/devonfw/ide/blob/master/documentation/features.asciidoc[feature] section of the documentation.
 
 '''
 

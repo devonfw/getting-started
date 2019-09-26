@@ -23,7 +23,7 @@ Listed below are the major *devonfw* resources. They're explained in more detail
 * Community
 * Homepage
 
-TIP: You don't need to follow every link in this section right away. These links mainly exist to provide more in-depth information on a second read-through or if you want to create a bookmark collection.
+TIP: You don't need to follow every link in this section right away. These links mainly exist to provide more in-depth information for a second read-through or if you want to create a bookmark collection.
 
 === Repositories
 The GitHub repositories within the link:https://github.com/devonfw[devonfw organization] contain the source code, documentation and wikis of individual devon projects. Projects in early development and prototypes are located in the link:https://github.com/devonfw-forge[devonfw forge]. They usually remain there until they are ready for a broader release or for use in production.

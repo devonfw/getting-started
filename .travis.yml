@@ -20,8 +20,7 @@ jobs:
   include:
     - stage: Documentation
       script:
-        # Clone repositories
-        - git clone -b develop --single-branch https://${GH_REPO_SOURCE}
+        # Clone necessary repositories
         - git clone https://${GH_REPO_DEST}
         # Update wiki repository with documentation folder contents
         - yes | cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/

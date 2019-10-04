@@ -1,0 +1,8 @@
+= Getting Started
+
+include::overview.asciidoc[leveloffset=1]
+include::introduction.asciidoc[leveloffset=1]
+include::ide.asciidoc[leveloffset=1]
+include::jumpthequeue.asciidoc[leveloffset=1]
+include::mythaistar.asciidoc[leveloffset=1]
+include::further-information.asciidoc[leveloffset=1]

@@ -12,9 +12,7 @@ ifdef::env-github[]
 :imagesdir: https://raw.githubusercontent.com/devonfw/getting-started/master/documentation/
 endif::[]
 
-= MyThaiStar
-
-== MyThaiStar Sample App
+= MyThaiStar Sample App
 MyThaiStar is a more complex sample app, that demonstrates the full capabilities of the devonfw stack and framework.
 
 You should take a look at the project structure and familiarize yourself with it, since most devonfw projects follow this exemplary implementation. On this page we will describe how to launch the app on your system, so you can explore the different functionalities it offers.
@@ -51,6 +49,6 @@ image:images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
  
 . Once started, the frontend will be available at link:http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password "*waiter*" and take a look at the different functionalities provided by MyThaiStar.
 
-'''
+//'''
 
-*Final Step:* link:further-information[Further Information]
+//*Final Step:* link:further-information[Further Information]

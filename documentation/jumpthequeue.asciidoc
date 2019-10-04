@@ -11,17 +11,15 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-= JumpTheQueue
-
-== JumpTheQueue Tutorial App
+= JumpTheQueue Tutorial App
 JumpTheQueue is a small application, which you can build yourself by following a step-by-step tutorial. This will teach you more about the components, layers and workflow of devonfw.
 
 The tutorial is located in the documentation of the JumpTheQueue repository. Your entry point will be the the wiki link:https://github.com/devonfw/devonfw-tutorial-sources/blob/Documentation_for_new_IDE/documentation/Home.asciidoc[home] page.
 
-IMPORTANT: To-Do: Update link to the JumpTheQueue wiki home!
+// TO-DO: Update the link to the jump-the-queue wiki home once the repo has been renamed!
 
 TIP: The tutorial assumes you have successfully completed the IDE setup previously.
 
-'''
+//'''
 
-*Next Step:* link:mythaistar[MyThaiStar Sample App]
+//*Next Step:* link:mythaistar[MyThaiStar Sample App]

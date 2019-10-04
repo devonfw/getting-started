@@ -1,0 +1,62 @@
+language: generic
+env:
+  global:
+    - ORG="devonfw"
+    - EMAIL="icsddevonfwsupport.apps2@capgemini.com"
+    - REPO_SOURCE="getting-started"
+    - REPO_DEST="getting-started.wiki"
+    - GH_REPO_SOURCE="github.com/${ORG}/${REPO_SOURCE}.git"
+    - GH_REPO_DEST="github.com/${ORG}/${REPO_DEST}.git"
+    - secure: SjDW/60KC9qs9IdFc2KBj0Yx2lIJm08DwMEH/jehphl5LRJFLKj7jIL4kK2tDecOdwoiLpPwQQyzqXbo+5xQOCgOkNQ2PhhSmgv7PfP7D91yjqYA/6xQFBFCp7RyRfK/RqIcOma7vlpNzAJQvlCZnTyS5uAYW3IxTRRI/sk3sPs0aKFIR6u07z3IhUUs8XCFjhxBO3LR7nNMEoN1sN6pRYAtpVDXzMWjZ1y9VXPngc93QD4fmVNBRDeyxlG3K8ayjF5kNTb3UFac1M/hGsGRENXp88DPa1phBBLPp8sbLTcAZMa89GbKQsgii2pJ2uNITmHDTTz65HVHIGT5WdIztXF/PN50Xkzpmdx3/fB8ly5TnpkzF2juAJ8Ru2iKIKHv8kELmaoq99yZ0Hzalt4jKDT0NCYCuADVVv3HwzRl69rJ7ElxkI32ucltkjIPrecMkSCvQchrE9PWIi9LWVCsAQzGTA+yLvreKkmAHIkxyGFWrlu6K+kRnbTYuiI8hxdH/XM09IRhahpdi0GhdRT6x81kx1Dto0OD83kRRkMcWfKkpkYKgmsOu4WNwPfV5eDRN2WBT60qukTcRU1eYq2uaL5EqmRLsFSTnIFxMXRu5YDVzYDfZG074hiJLby/m/nreDZB25uOzuxiqSe8ZGqQkAeKgLKP5akRpiZ1QG5tNlU=
+install: true
+before_install:
+  - cd ..
+  - sudo apt-get update
+  - sudo apt-get install -y imagemagick
+stages:
+  - name: Documentation
+    if: (branch = develop) AND (type = push)
+jobs:
+  include:
+    - stage: Documentation
+      script:
+        # Clone repositories
+        - git clone -b develop --single-branch https://${GH_REPO_SOURCE}
+        - git clone https://${GH_REPO_DEST}
+        # Update wiki repository with documentation folder contents
+        - yes | cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/
+        - cd ${REPO_DEST}
+        - grep -lr "link:[a-zA-Z0-9_.-]*.asciidoc.*" .| xargs -r sed -i "s/.asciidoc//g"
+        # Terminate Travis CI build when no changes detected
+        - |
+          if git diff-index --quiet HEAD && [ ! -n "$(git status -s)" ]; then 
+            set +e 
+            pkill -9 -P $$ &> /dev/null || true 
+            exit 0
+          else 
+            git config user.email ${EMAIL}
+            git config user.name ${USER}
+            git status
+            git add .
+            git commit -m "${REPO_SOURCE} documentation | Travis CI build number $TRAVIS_BUILD_NUMBER"
+            git remote add origin-wiki "https://${USER}:${GITHUB_TOKEN}@${GH_REPO_DEST}"
+            git push origin-wiki master
+          fi
+    - stage: Generate PDF
+      if: (type = push) AND (commit_message !~ /^PDF getting started \| Travis CI build number.*$/)
+      script:
+        - git config --global user.email ${EMAIL}
+        - git config --global user.name ${USER}
+        # Fix PNG images (devonfw-guide already cloned)
+        - cd ${REPO_CONSOLIDATE}
+        - git checkout master
+        - find . -name '*.png' -exec mogrify -interlace none -format png {} +
+        - find . -name '*.PNG' -exec mogrify -interlace none -format PNG {} +
+        # Generate PDF
+        - mvn clean package -Ddocgen.images.dir=images,documentation -Doutput.format=pdf
+        - mv ./target/generated-docs/master.pdf ./devonfw_getting_started.pdf
+        # Commit and push new getting started
+        - git add ./devonfw_getting_started.pdf
+        - git commit -m "PDF getting started | Travis CI build number $TRAVIS_BUILD_NUMBER"
+        - git remote add origin-pdf "https://${USER}:${GITHUB_TOKEN}@${GH_REPO_SOURCE}"
+        - git push origin-pdf master

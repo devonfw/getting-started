@@ -1,4 +1,4 @@
-# devon Getting Started Guide
+# devonfw Getting Started Guide
 
 This repository is the primary entry-point for new devon users.
 

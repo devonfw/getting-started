@@ -47,7 +47,7 @@ image:images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
 
 . Execute: `yarn start`
  
-. Once started, the frontend will be available at link:http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password "*waiter*" and take a look at the different functionalities provided by MyThaiStar.
+. Once started, the frontend will be available at link:http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password "*waiter*" and take a look at the various functionalities provided by MyThaiStar.
 
 //'''
 

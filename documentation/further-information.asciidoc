@@ -14,7 +14,7 @@ endif::[]
 = Further Information
 
 == VS Code Extension Pack
-The link:https://github.com/devonfw/extension-pack-vscode[devonfw Platform Extension Pack] is a collection of useful Extensions for Visual Studio Code that support the development of devonfw applications. You can get it link:https://marketplace.visualstudio.com/items?itemName=devonfw.devonfw-extension-pack[here].
+The link:https://github.com/devonfw/extension-pack-vscode[devonfw Platform Extension Pack] is a collection of useful extensions for Visual Studio Code that support the development of devonfw applications. You can get it link:https://marketplace.visualstudio.com/items?itemName=devonfw.devonfw-extension-pack[here].
 
 [NOTE]
 ====
@@ -25,9 +25,9 @@ Please be aware that the Extension Pack is quite 'extensive' and will take a whi
 The link:https://github.com/devonfw/sonar-devon-plugin[devon plug-in] for SonarQube can be used to validate if a certain project follows the devonfw architecture blueprint. Please refer to the link:https://github.com/devonfw/sonar-devon-plugin/wiki/guide-sonar-qube-setup[setup] guide in the respective repository, if you want to start using this plug-in.
 
 == MrChecker Framework (E2E Testing)
-The link:https://github.com/devonfw/devonfw-testing[MrChecker] framework for end-to-end testing is supplied in the form of a Maven project which you can extend with your own test cases. It supports the classic JUnit as well as the Cucumber test structure. Please visit the MrChecker link:https://github.com/devonfw/devonfw-testing/wiki[wiki] to learn more.
+The link:https://github.com/devonfw/devonfw-testing[MrChecker] framework for end-to-end testing is supplied in the form of a Maven project which you can extend with your own test cases. It supports the classic JUnit, as well as the Cucumber test structure. Please visit the MrChecker link:https://github.com/devonfw/devonfw-testing/wiki[wiki] to learn more.
 
 '''
 
-*You did it!* This is the final page of the _getting started_ guide. +
-We reccomend, you bookmark the links you found useful during reading in your browser.
+*You did it!* This is the final page of the _devonfw getting started guide_. +
+We reccomend, you bookmark links you found useful during reading in your browser.

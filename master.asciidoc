@@ -1,4 +1,4 @@
-= devonfw getting started
+= devonfw getting started guide
 Updated at {localdatetime}
 :toc:
 :doctype: book
@@ -11,4 +11,4 @@ Updated at {localdatetime}
 :chapter-label:
 :partnums:
 
-include::general/master-general-start[leveloffset=0]
+include::documentation/master[leveloffset=1]

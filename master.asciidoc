@@ -1,0 +1,14 @@
+= devonfw getting started
+Updated at {localdatetime}
+:toc:
+:doctype: book
+:idprefix:
+:idseparator: -
+:reproducible:
+:source-highlighter: rouge
+:listing-caption: Listing
+:sectnums:
+:chapter-label:
+:partnums:
+
+include::general/master-general-start[leveloffset=0]

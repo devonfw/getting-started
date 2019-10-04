@@ -11,4 +11,4 @@ Updated at {localdatetime}
 :chapter-label:
 :partnums:
 
-include::documentation/master[leveloffset=1]
+include::documentation/master[leveloffset=0]

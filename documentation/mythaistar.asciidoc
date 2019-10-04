@@ -15,13 +15,13 @@ endif::[]
 = MyThaiStar
 
 == MyThaiStar Sample App
-MyThaiStar is a more complex sample app, that demonstrates the full capabilities of the devon stack and framework.
+MyThaiStar is a more complex sample app, that demonstrates the full capabilities of the devonfw stack and framework.
 
-You should take a look at the project structure and familiarize yourself with it, since most devon projects follow this exemplary implementation. On this page we will describe how to launch the app on your system, so you can explore the different functionalities it offers.
+You should take a look at the project structure and familiarize yourself with it, since most devonfw projects follow this exemplary implementation. On this page we will describe how to launch the app on your system, so you can explore the different functionalities it offers.
 
 TIP: We assume you have successfully completed the IDE setup previously.
 
-. In the root directory of the devon distribution, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:
+. In the root directory of the devonfw distribution, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:
 +
 [source,bash]
 -----

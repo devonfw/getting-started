@@ -1,4 +1,4 @@
-= Getting Started
+= Getting started with devonfw
 
 include::overview.asciidoc[leveloffset=1]
 include::introduction.asciidoc[leveloffset=1]

@@ -14,24 +14,24 @@ endif::[]
 = Introduction
 
 == Framework Introduction
-To gain a better understanding of what devon is all about and why it was initially developed, please read the framework introduction in the devon guide:
+To gain a better understanding of what devonfw is all about and why it was initially developed, please read the framework introduction in the devonfw guide:
 
 link:https://github.com/devonfw/devonfw-guide/blob/master/general/getting-started-what-is-devonfw.asciidoc[What is devonfw?]
 
-In the following section we will offer a brief overview of the main components and tools of devon and provide links for further reading:
+In the following section we will offer a brief overview of the main components and tools of devonfw and provide links for further reading:
 
 === devon4j
-The _backend_ of most devon applications is built with Java. To speed up the development process, the link:https://github.com/devonfw/devon4j[devon4j] stack provides pre-selected frameworks and tools that ensure a secure backend-design which conforms with current standards.
+The _backend_ of most devonfw applications is built with Java. To speed up the development process, the link:https://github.com/devonfw/devon4j[devon4j] stack provides pre-selected frameworks and tools that ensure a secure backend-design which conforms with current standards.
 
 To learn more about devon4j, please refer to the devon4j link:https://github.com/devonfw/devon4j/blob/develop/documentation/Home.asciidoc[wiki].
 
 === devon4ng
-The _frontend_ of most devon applications is based on the Angular framework. To speed up frontend development, link:https://github.com/devonfw/devon4ng[devon4ng] provides several Angular application templates as a starting point for new projects. Furthermore it contains code samples that demonstrate important frontend aspects like routing, theming and internationalization.
+The _frontend_ of most devonfw applications is based on the Angular framework. To speed up frontend development, link:https://github.com/devonfw/devon4ng[devon4ng] provides several Angular application templates as a starting point for new projects. Furthermore it contains code samples that demonstrate important frontend aspects like routing, theming and internationalization.
 
 To learn more about devon4ng, please refer to the devon4ng link:https://github.com/devonfw/devon4ng/blob/develop/documentation/home.asciidoc[wiki].
 
 === CobiGen
-"The _Code-based Incremental Generator_ link:https://github.com/devonfw/tools-cobigen[CobiGen] is build as an extensible framework for incremental code generation." New devon users will most likely interact with the CobiGen Eclipse plugin to automatically generate Java classes based on certain database structures and their respective entity classes (as demonstrated in the link:jumpthequeue.asciidoc[JumpTheQueue] tutorial app).
+"The _Code-based Incremental Generator_ link:https://github.com/devonfw/tools-cobigen[CobiGen] is build as an extensible framework for incremental code generation." New devonfw users will most likely interact with the CobiGen Eclipse plugin to automatically generate Java classes based on certain database structures and their respective entity classes (as demonstrated in the link:jumpthequeue.asciidoc[JumpTheQueue] tutorial app).
 
 To learn more about CobiGen, please refer to the CobiGen link:https://github.com/devonfw/tools-cobigen/blob/master/documentation/Home.asciidoc[wiki].
 

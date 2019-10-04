@@ -26,26 +26,26 @@ Listed below are the major *devonfw* resources. They're explained in more detail
 TIP: You don't need to follow every link in this section right away. These links mainly exist to provide more in-depth information for a second read-through or if you want to create a bookmark collection.
 
 === Repositories
-The GitHub repositories within the link:https://github.com/devonfw[devonfw organization] contain the source code, documentation and wikis of individual devon projects. Projects in early development and prototypes are located in the link:https://github.com/devonfw-forge[devonfw forge]. They usually remain there until they are ready for a broader release or for use in production.
+The GitHub repositories within the link:https://github.com/devonfw[devonfw organization] contain the source code, documentation and wikis of individual devonfw projects. Projects in early development and prototypes are located in the link:https://github.com/devonfw-forge[devonfw forge]. They usually remain there until they are ready for a broader release or for use in production.
 
 .An overview of the devonfw Organization Repositories.
 [caption=""]
 image::images/devonfw-org.svg[devonfw Repository Overview, 800]
 
 === Distribution
-The devon link:http://de-mucevolve02/files/devonfw/[distribution] contains the complete collection of software used by the devon framework. It is provided in the form of an archive (`.zip` for Windows / `.tar.gz` for Linux/macOS). The distribution contains all tools you'll need to develop fully fledged devon applications.
+The devon link:http://de-mucevolve02/files/devonfw/[distribution] contains the complete collection of software used by devonfw. It is provided in the form of an archive (`.zip` for Windows / `.tar.gz` for Linux/macOS). The distribution contains all tools you'll need to develop fully fledged devonfw applications.
 
 IMPORTANT: All links posted on this page need to be publicly accessible! +
 The link:https://repo.maven.apache.org/maven2/com/devonfw/[Maven repo] should be linked here instead of `de-mucevolve02`.
 
 === Guide
-The devon link:https://github.com/devonfw/devonfw-guide/raw/master/devonfw_guide.pdf[guide] is a PDF document with over 900 (!) pages. It represents the totality of devon's documentation. It is always up-to-date (due to being automatically generated) and included in each release of the distribution.
+The devonfw link:https://github.com/devonfw/devonfw-guide/raw/master/devonfw_guide.pdf[guide] is a PDF document with over 900 (!) pages. It represents the totality of devonfw's documentation. It is always up-to-date (due to being automatically generated) and included in each release of the distribution.
 
 === Community
-The devon community is active on Microsoft link:https://teams.microsoft.com/l/team/19%3af92c481ec30345a28a5434bc530a882a%40thread.skype/conversations?groupId=503df57a-d454-4eec-b3bc-d6d87c7c24f8&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61[Teams] and link:https://www.yammer.com/capgemini.com/#/threads/inGroup?type=in_group&feedId=5030942[Yammer]. If you run into any problems with devon, have general questions, feedback or suggestions, please feel free to post them in the respective sections there.
+The devon community is active on Microsoft link:https://teams.microsoft.com/l/team/19%3af92c481ec30345a28a5434bc530a882a%40thread.skype/conversations?groupId=503df57a-d454-4eec-b3bc-d6d87c7c24f8&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61[Teams] and link:https://www.yammer.com/capgemini.com/#/threads/inGroup?type=in_group&feedId=5030942[Yammer]. If you run into any problems with devonfw, have general questions, feedback or suggestions, please feel free to post them in the respective sections there.
 
 === Homepage
-The official link:http://www.devonfw.com/[homepage] represents a major public presence for the devon framework and is meant to attract new users and customers. It also hosts link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[video tutorials] for new developers.
+The official link:http://www.devonfw.com/[homepage] represents a major public presence for devonfw and is meant to attract new users and customers. It also hosts link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[video tutorials] for new developers.
 
 '''
 

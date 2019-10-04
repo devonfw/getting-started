@@ -13,23 +13,23 @@ endif::[]
 
 = IDE
 
-== The devon IDE
-First we have to clarify what we are talking about, when we mention the *devon IDE*: +
-The devon IDE isn't one program that can be installed with a traditional executable; rather it's a collection of scripts which are invoked via command line to automate several, repetetive development processes. These scripts then interact with other tools (e.g. link:https://maven.apache.org/[Maven], link:https://jenkins.io/[Jenkins]), frameworks (link:https://spring.io/[Spring], link:https://angular.io/[Angular]) or third party IDEs (link:https://www.eclipse.org/downloads/[Eclipse], link:https://code.visualstudio.com/download[VS Code], link:https://www.jetbrains.com/idea/download/[IntelliJ IDEA]) to streamline the development workflow.
+== The devonfw IDE
+First we have to clarify what we are talking about, when we mention the *devonfw IDE*: +
+The devonfw IDE isn't one program that can be installed with a traditional executable; rather it's a collection of scripts which are invoked via command line to automate several, repetetive development processes. These scripts then interact with other tools (e.g. link:https://maven.apache.org/[Maven], link:https://jenkins.io/[Jenkins]), frameworks (link:https://spring.io/[Spring], link:https://angular.io/[Angular]) or third party IDEs (link:https://www.eclipse.org/downloads/[Eclipse], link:https://code.visualstudio.com/download[VS Code], link:https://www.jetbrains.com/idea/download/[IntelliJ IDEA]) to streamline the development workflow.
 
 As such, the package size for the IDE scripts is kept small, the is setup simple and the complete development environment is lightweight and unobtrusive for your system.
 
 === Setup
-Please refer to the link:https://github.com/devonfw/ide/blob/master/documentation/setup.asciidoc[setup] guide in the documentation to learn where to download and how to setup the devon IDE.
+Please refer to the link:https://github.com/devonfw/ide/blob/master/documentation/setup.asciidoc[setup] guide in the documentation to learn where to download and how to setup the devonfw IDE.
 
 === Usage
 Please refer to the link:https://github.com/devonfw/ide/blob/master/documentation/usage.asciidoc[usage] section in the documentation to learn about how to manage workspaces and create launch scripts.
 
 === Commands
-Please refer to the link:https://github.com/devonfw/ide/blob/master/documentation/cli.asciidoc[commandlets] section in the documentation to learn more about the available devon commands.
+Please refer to the link:https://github.com/devonfw/ide/blob/master/documentation/cli.asciidoc[commandlets] section in the documentation to learn more about the available devonfw commands.
 
 === Further Reading
-To gain more insight into the motivation behind the devon IDE, you should read the link:https://github.com/devonfw/ide/blob/master/documentation/features.asciidoc[feature] section of the documentation.
+To gain more insight into the motivation behind the devonfw IDE, you should read the link:https://github.com/devonfw/ide/blob/master/documentation/features.asciidoc[feature] section of the documentation.
 
 '''
 

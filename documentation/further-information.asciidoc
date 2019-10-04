@@ -29,7 +29,7 @@ endif::[]
 //"The _Code-based Incremental Generator_ link:https://github.com/devonfw/tools-cobigen[CobiGen] is build as an extensible framework for incremental code generation." New devon users will most likely interact with the CobiGen Eclipse plugin to automatically generate Java classes based on certain data structures and their respective entity classes (as demonstrated in the link:jumpthequeue.asciidoc[JumpTheQueue] tutorial app).
 
 == VS Code Extension Pack
-The link:https://github.com/devonfw/extension-pack-vscode[devonfw Platform Extension Pack] is a collection of useful Extensions for Visual Studio Code that support the development of devon applications. You can get it link:https://marketplace.visualstudio.com/items?itemName=devonfw.devonfw-extension-pack[here].
+The link:https://github.com/devonfw/extension-pack-vscode[devonfw Platform Extension Pack] is a collection of useful Extensions for Visual Studio Code that support the development of devonfw applications. You can get it link:https://marketplace.visualstudio.com/items?itemName=devonfw.devonfw-extension-pack[here].
 
 [NOTE]
 ====
@@ -37,7 +37,7 @@ Please be aware that the Extension Pack is quite 'extensive' and will take a whi
 ====
 
 == SonarQube Plug-in (Architecture Validation)
-The link:https://github.com/devonfw/sonar-devon-plugin[devon plug-in] for SonarQube can be used to validate if a certain project follows the devon architecture blueprint. Please refer to the link:https://github.com/devonfw/sonar-devon-plugin/wiki/guide-sonar-qube-setup[setup] guide in the respective repository, if you want to start using this plug-in.
+The link:https://github.com/devonfw/sonar-devon-plugin[devon plug-in] for SonarQube can be used to validate if a certain project follows the devonfw architecture blueprint. Please refer to the link:https://github.com/devonfw/sonar-devon-plugin/wiki/guide-sonar-qube-setup[setup] guide in the respective repository, if you want to start using this plug-in.
 
 == MrChecker Framework (E2E Testing)
 The link:https://github.com/devonfw/devonfw-testing[MrChecker] framework for end-to-end testing is supplied in the form of a Maven project which you can extend with your own test cases. It supports the classic JUnit as well as the Cucumber test structure. Please visit the MrChecker link:https://github.com/devonfw/devonfw-testing/wiki[wiki] to learn more.

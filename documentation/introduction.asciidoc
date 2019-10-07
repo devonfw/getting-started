@@ -29,7 +29,7 @@ The _frontend_ of most devonfw applications is based on the Angular framework. T
 To learn more about devon4ng, please refer to the devon4ng link:https://github.com/devonfw/devon4ng/blob/develop/documentation/home.asciidoc[wiki].
 
 == CobiGen
-"The _Code-based Incremental Generator_ link:https://github.com/devonfw/tools-cobigen[CobiGen] is build as an extensible framework for incremental code generation." New devonfw users will most likely interact with the CobiGen Eclipse plugin to automatically generate Java classes based on certain database structures and their respective entity classes (as demonstrated in the link:jumpthequeue.asciidoc[JumpTheQueue] tutorial).
+"The _Code-based Incremental Generator_ link:https://github.com/devonfw/tools-cobigen[CobiGen] is build as an extensible framework for incremental code generation." New devonfw users will most likely interact with the CobiGen Eclipse plug-in to automatically generate Java classes based on certain database structures and their respective entity classes (as demonstrated in the link:jumpthequeue.asciidoc[JumpTheQueue] tutorial).
 
 To learn more about CobiGen, please refer to the CobiGen link:https://github.com/devonfw/tools-cobigen/blob/master/documentation/Home.asciidoc[wiki].
 

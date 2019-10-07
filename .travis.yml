@@ -46,7 +46,7 @@ jobs:
       script:
         - git config --global user.email ${EMAIL}
         - git config --global user.name ${USER}
-        # Fix PNG images (devonfw-guide already cloned)
+        # Fix PNG images (getting-started already cloned)
         - cd ${REPO_SOURCE}
         - git checkout develop
         - find . -name '*.png' -exec mogrify -interlace none -format png {} +

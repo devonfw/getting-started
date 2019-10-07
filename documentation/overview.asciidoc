@@ -26,9 +26,9 @@ TIP: You don't need to follow every link in this section right away. These links
 == Repositories
 The GitHub repositories within the link:https://github.com/devonfw[devonfw organization] contain the source code, documentation and wikis of individual devonfw projects. Projects in early development and prototypes are located in the link:https://github.com/devonfw-forge[devonfw forge]. They usually remain there until they are ready for a broader release or for use in production.
 
-.An overview of the devonfw Organization Repositories.
+.An overview of the devonfw organization repositories.
 [caption=""]
-image::images/devonfw-org.svg[devonfw Repository Overview, 800]
+image::images/devonfw-org.png[devonfw Repository Overview, 800]
 
 == Distribution
 The devonfw link:http://de-mucevolve02/files/devonfw/[distribution] contains the complete collection of software used by devonfw. It is provided in the form of an archive (`.zip` for Windows / `.tar.gz` for Linux/macOS). The distribution contains all tools you'll need to develop fully fledged devonfw applications.

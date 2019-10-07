@@ -14,7 +14,7 @@ endif::[]
 = The devon IDE
 First we have to clarify what we are talking about, when we mention the *devon IDE*:
 
-The devon IDE is *not* one monolithic program that is installed with a traditional executable; rather it's a collection of scripts which are invoked via command line to automate several, repetetive development tasks. These scripts then interact with other tools (e.g. link:https://maven.apache.org/[Maven], link:https://jenkins.io/[Jenkins]), frameworks (link:https://spring.io/[Spring], link:https://angular.io/[Angular]) or third party IDEs (link:https://www.eclipse.org/downloads/[Eclipse], link:https://code.visualstudio.com/download[VS Code], link:https://www.jetbrains.com/idea/download/[IntelliJ IDEA]) to streamline the development workflow. +
+The devon IDE is _not_ one monolithic program that is installed with a traditional executable; rather it's a collection of scripts which are invoked via command line to automate several, repetetive development tasks. These scripts then interact with other tools (e.g. link:https://maven.apache.org/[Maven], link:https://jenkins.io/[Jenkins]), frameworks (link:https://spring.io/[Spring], link:https://angular.io/[Angular]) or third party IDEs (link:https://www.eclipse.org/downloads/[Eclipse], link:https://code.visualstudio.com/download[VS Code], link:https://www.jetbrains.com/idea/download/[IntelliJ IDEA]) to streamline the development workflow. +
 As such, the package size of the IDE is initally very small, the setup is simple, the included software is portable and the whole environment is unobtrusive and light on system resources.
 
 == Setup

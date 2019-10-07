@@ -16,10 +16,10 @@ JumpTheQueue is a small application, which you can build yourself by following a
 
 The tutorial is located in the documentation of the JumpTheQueue repository. Your entry point will be the the wiki link:https://github.com/devonfw/devonfw-tutorial-sources/blob/Documentation_for_new_IDE/documentation/Home.asciidoc[home] page.
 
-// TO-DO: Update the link to the jump-the-queue wiki home once the repo has been renamed!
-
 TIP: The tutorial assumes you have successfully completed the IDE setup previously.
 
-//'''
+ifdef::env-github[]
+'''
 
-//*Next Step:* link:mythaistar[MyThaiStar Sample App]
+*Next Step:* link:mythaistar[MyThaiStar Sample App]
+endif::[]

@@ -49,6 +49,8 @@ image:images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
  
 . Once started, the frontend will be available at link:http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password "*waiter*" and take a look at the various functionalities provided by MyThaiStar.
 
-//'''
+ifdef::env-github[]
+'''
 
-//*Final Step:* link:further-information[Further Information]
+*Final Step:* link:further-information[Further Information]
+endif::[]

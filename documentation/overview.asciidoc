@@ -44,6 +44,8 @@ The devon community is active on Microsoft link:https://teams.microsoft.com/l/te
 == Homepage
 The official link:http://www.devonfw.com/[homepage] represents a major public presence for devonfw and is meant to attract new framework users as well as customers for Capgemini. It also hosts link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx#video-tutorials[video tutorials] for new developers.
 
-//'''
+ifdef::env-github[]
+'''
 
-//*Next Step:* link:introduction[Framework Introduction]
+*Next Step:* link:introduction[Framework Introduction]
+endif::[]

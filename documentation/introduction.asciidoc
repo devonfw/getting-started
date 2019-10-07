@@ -33,6 +33,8 @@ To learn more about devon4ng, please refer to the devon4ng link:https://github.c
 
 To learn more about CobiGen, please refer to the CobiGen link:https://github.com/devonfw/tools-cobigen/blob/master/documentation/Home.asciidoc[wiki].
 
-//'''
+ifdef::env-github[]
+'''
 
-//*Next Step:* link:ide[IDE Setup]
+*Next Step:* link:ide[IDE Setup]
+endif::[]

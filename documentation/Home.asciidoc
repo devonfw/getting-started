@@ -20,7 +20,7 @@ TIP: Just follow the link at the bottom of this and each subsequent page to visi
 You will find a collection and short descriptions of the major devonfw resources link:overview[here].
 
 == Framework Introduction
-If don't quite know what devonfw is all about yet, you will find a short introduction to the framework, its core ideas and the software stack behind it link:introduction[here].
+If you don't quite know what devonfw is all about yet, you will find a short introduction to the framework, its core ideas and the software stack behind it link:introduction[here].
 
 == IDE Setup
 If you want to start working with devonfw, you'll have to set up the development environment on your system first, which is explained link:ide[here].

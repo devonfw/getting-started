@@ -27,7 +27,9 @@ The link:https://github.com/devonfw/sonar-devon-plugin[devon plug-in] for SonarQ
 == MrChecker Framework (E2E Testing)
 The link:https://github.com/devonfw/devonfw-testing[MrChecker] framework for end-to-end testing is supplied in the form of a Maven project which you can extend with your own test cases. It supports the classic JUnit, as well as the Cucumber test structure. Please visit the MrChecker link:https://github.com/devonfw/devonfw-testing/wiki[wiki] to learn more.
 
+ifdef::env-github[]
 '''
 
 *You did it!* This is the final page of the _devonfw getting started guide_. +
 We reccomend, you bookmark links you found useful during reading in your browser.
+endif::[]

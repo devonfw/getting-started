@@ -15,11 +15,11 @@ endif::[]
 = Resource Overview
 Listed below are the major *devonfw* resources. They're explained in more detail in the following section.
 
-* <<Repositories>>
-* <<Distribution>>
-* <<Guide>>
-* <<Community>>
-* <<Homepage>>
+* xref:Repositories[]
+* xref:Distribution[]
+* xref:Guide[]
+* xref:Community[]
+* xref:Homepage[]
 
 TIP: You don't need to follow every link in this section right away. These links mainly exist to provide more in-depth information for a second read-through or if you want to create a bookmark collection.
 
@@ -28,12 +28,10 @@ The GitHub repositories within the link:https://github.com/devonfw[devonfw organ
 
 .An overview of the devonfw organization repositories.
 [caption=""]
-image::images/devonfw-org.png[devonfw Repository Overview, 800]
+image::images/devonfw-org.png[devonfw Repository Overview]
 
 == Distribution
 The devonfw link:http://de-mucevolve02/files/devonfw/[distribution] contains the complete collection of software used by devonfw. It is provided in the form of an archive (`.zip` for Windows / `.tar.gz` for Linux/macOS). The distribution contains all tools you'll need to develop fully fledged devonfw applications.
-
-// TO-DO: Link to https://repo.maven.apache.org/maven2/com/devonfw/ instead of http://de-mucevolve02/files/devonfw/ once the new distro is realeased!
 
 == Guide
 The devonfw link:https://github.com/devonfw/devonfw-guide/raw/master/devonfw_guide.pdf[guide] is a PDF document with over 900 (!) pages. It represents the totality of devonfw's documentation. It is always up-to-date (due to being automatically generated) and included in each release of the distribution.
@@ -46,6 +44,5 @@ The official link:http://www.devonfw.com/[homepage] represents a major public pr
 
 ifdef::env-github[]
 '''
-
 *Next Step:* link:introduction[Framework Introduction]
 endif::[]

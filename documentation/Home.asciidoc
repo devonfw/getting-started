@@ -35,5 +35,4 @@ link:mythaistar[MyThaiStar] is a more complex sample app, that demonstrates the 
 You can find links to advanced devonfw topics and other resources closely related to the framework link:further-information[here].
 
 '''
-
 *First Step:* link:overview[Resource Overview]

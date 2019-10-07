@@ -20,6 +20,5 @@ TIP: The tutorial assumes you have successfully completed the IDE setup previous
 
 ifdef::env-github[]
 '''
-
 *Next Step:* link:mythaistar[MyThaiStar Sample App]
 endif::[]

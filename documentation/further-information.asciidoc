@@ -29,7 +29,6 @@ The link:https://github.com/devonfw/devonfw-testing[MrChecker] framework for end
 
 ifdef::env-github[]
 '''
-
 *You did it!* This is the final page of the _devonfw getting started guide_. +
 We reccomend, you bookmark links you found useful during reading in your browser.
 endif::[]

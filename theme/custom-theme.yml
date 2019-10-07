@@ -118,7 +118,7 @@ heading:
 title_page:
   align: center
   logo:
-      image: image:./images/devonfw.png[pdfwidth=70%]
+      image: image:./images/devonfw.png[pdfwidth=50%]
       top: 30%
   title:
     #top: 55%
@@ -312,26 +312,26 @@ footer:
 
   recto:
     #columns: "<50% =0% >50%"
+    center:
+      content: This documentation is licensed under the Creative Commons License (Attribution-NoDerivatives 4.0 International).
     right:
       content: '{page-number}'
     left:
       content: image:./images/capgemini-small.png[width=80]
-    center:
-      content: This documentation is licensed under the Creative Commons License (Attribution-NoDerivatives 4.0 International).
 
   verso:
+    center:
+      content: This documentation is licensed under the Creative Commons License (Attribution-NoDerivatives 4.0 International).
     right:
       content: '{page-number}'
     left:
       content: image:./images/capgemini-small.png[width=80]
       #content: '{page-number} | {chapter-title}'
-    center:
-      content: This documentation is licensed under the Creative Commons License (Attribution-NoDerivatives 4.0 International).
+    
 
-# header 
 header:
   font_size: 7
- # font_color: 1ac6ff
+  #font_color: 1ac6ff
   border_color: dddddd
   border_width: 0.25
   height: $base_line_height_length * 3
@@ -339,17 +339,17 @@ header:
  
   image_vertical_align: 2 # (1)
   recto:
-    #center:
-      #content: Devonfw Guide v2.4.0
+    center:
+      content: devonfw getting started guide
     left:
-      content: image:./images/devonfw-small.png[width=80]
-    right:
       content: image:./images/capgemini-small.png[width=80]
+    right:
+      content: image:./images/devonfw-small.png[width=80]
 
   verso:
-    #center:
-      #content: Devonfw Guide v2.4.0
+    center:
+      content: devonfw getting started guide
     left:
-      content: image:./images/devonfw-small.png[width=80]
-    right:
       content: image:./images/capgemini-small.png[width=80]
+    right:
+      content: image:./images/devonfw-small.png[width=80]

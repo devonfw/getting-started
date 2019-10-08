@@ -12,16 +12,14 @@ ifdef::env-github[]
 :imagesdir: https://raw.githubusercontent.com/devonfw/getting-started/master/documentation/
 endif::[]
 
-= MyThaiStar
+= MyThaiStar Sample App
+MyThaiStar is a more complex sample app, that demonstrates the full capabilities of the devonfw stack and framework.
 
-== MyThaiStar Sample App
-MyThaiStar is a more complex sample app, that demonstrates the full capabilities of the devon stack and framework.
-
-You should take a look at the project structure and familiarize yourself with it, since most devon projects follow this exemplary implementation. On this page we will describe how to launch the app on your system, so you can explore the different functionalities it offers.
+You should take a look at the project structure and familiarize yourself with it, since most devonfw projects follow this exemplary implementation. On this page we will describe how to launch the app on your system, so you can explore the different functionalities it offers.
 
 TIP: We assume you have successfully completed the IDE setup previously.
 
-. In the root directory of the devon distribution, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:
+. In the root directory of the devonfw distribution, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:
 +
 [source,bash]
 -----
@@ -41,7 +39,7 @@ git clone https://github.com/devonfw/my-thai-star.git
 
 . Run the backend by right-clicking `SpringBootApp.java` and selecting `Run as > Java Application` in the context menu. The backend will start up and create log entries in the Eclipse Console tab.
 +
-image:images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
+image:images/run-mythaistar.png[Running the MyThaiStar Backend]
 
 . Return to your command shell and perform: `cd angular`
 
@@ -49,8 +47,9 @@ image:images/run-mythaistar.png[Running the MyThaiStar Backend, 800]
 
 . Execute: `yarn start`
  
-. Once started, the frontend will be available at link:http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password "*waiter*" and take a look at the different functionalities provided by MyThaiStar.
+. Once started, the frontend will be available at link:http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password "*waiter*" and take a look at the various functionalities provided by MyThaiStar.
 
+ifdef::env-github[]
 '''
-
 *Final Step:* link:further-information[Further Information]
+endif::[]

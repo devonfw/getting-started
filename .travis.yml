@@ -20,8 +20,7 @@ jobs:
   include:
     - stage: Documentation
       script:
-        # Clone repositories
-        - git clone -b develop --single-branch https://${GH_REPO_SOURCE}
+        # Clone necessary repositories
         - git clone https://${GH_REPO_DEST}
         # Update wiki repository with documentation folder contents
         - yes | cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/
@@ -47,9 +46,9 @@ jobs:
       script:
         - git config --global user.email ${EMAIL}
         - git config --global user.name ${USER}
-        # Fix PNG images (devonfw-guide already cloned)
-        - cd ${REPO_CONSOLIDATE}
-        - git checkout master
+        # Fix PNG images (getting-started already cloned)
+        - cd ${REPO_SOURCE}
+        - git checkout develop
         - find . -name '*.png' -exec mogrify -interlace none -format png {} +
         - find . -name '*.PNG' -exec mogrify -interlace none -format PNG {} +
         # Generate PDF
@@ -59,4 +58,4 @@ jobs:
         - git add ./devonfw_getting_started.pdf
         - git commit -m "PDF getting started | Travis CI build number $TRAVIS_BUILD_NUMBER"
         - git remote add origin-pdf "https://${USER}:${GITHUB_TOKEN}@${GH_REPO_SOURCE}"
-        - git push origin-pdf master
+        - git push origin-pdf develop

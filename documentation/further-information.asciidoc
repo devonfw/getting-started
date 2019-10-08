@@ -13,23 +13,8 @@ endif::[]
 
 = Further Information
 
-//== Official Website
-//The official devon website is link:https://www.devonfw.com/[devonfw.com]. It contains useful links, information about the devon initative, its members and repositories as well as link:https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx[training videos].
-
-//== devon Guide
-//The link:https://github.com/devonfw/devonfw-guide[devon guide] is a _very_ extensive link:https://github.com/devonfw/devonfw-guide/raw/master/devonfw_guide.pdf[PDF], that is sourced from the documentation of official repositories within the devonfw organization. It is automatically generated and included in the files of each devon distribution.
-
-//== devon4j
-//The backend of most devon applications is built with Java. To speed up the development process, the link:https://github.com/devonfw/devon4j[devon4j] stack provides pre-selected frameworks and tools that ensure a secure backend-design which conforms with current standards.
-
-//== devon4ng
-//The frontend of most devon applications is based around the Angular framework. For this reason, link:https://github.com/devonfw/devon4ng[devon4ng] provides an Angular application template as well as an application template combining Angular and Ionic (another frontend framework). It also contains various samples, which explain aspects like routing, theming, internationalization, Electron-support, etc.
-
-//== CobiGen
-//"The _Code-based Incremental Generator_ link:https://github.com/devonfw/tools-cobigen[CobiGen] is build as an extensible framework for incremental code generation." New devon users will most likely interact with the CobiGen Eclipse plugin to automatically generate Java classes based on certain data structures and their respective entity classes (as demonstrated in the link:jumpthequeue.asciidoc[JumpTheQueue] tutorial app).
-
 == VS Code Extension Pack
-The link:https://github.com/devonfw/extension-pack-vscode[devonfw Platform Extension Pack] is a collection of useful Extensions for Visual Studio Code that support the development of devon applications. You can get it link:https://marketplace.visualstudio.com/items?itemName=devonfw.devonfw-extension-pack[here].
+The link:https://github.com/devonfw/extension-pack-vscode[devonfw Platform Extension Pack] is a collection of useful extensions for Visual Studio Code that support the development of devonfw applications. You can get it link:https://marketplace.visualstudio.com/items?itemName=devonfw.devonfw-extension-pack[here].
 
 [NOTE]
 ====
@@ -37,12 +22,13 @@ Please be aware that the Extension Pack is quite 'extensive' and will take a whi
 ====
 
 == SonarQube Plug-in (Architecture Validation)
-The link:https://github.com/devonfw/sonar-devon-plugin[devon plug-in] for SonarQube can be used to validate if a certain project follows the devon architecture blueprint. Please refer to the link:https://github.com/devonfw/sonar-devon-plugin/wiki/guide-sonar-qube-setup[setup] guide in the respective repository, if you want to start using this plug-in.
+The link:https://github.com/devonfw/sonar-devon-plugin[devon plug-in] for SonarQube can be used to validate if a certain project follows the devonfw architecture blueprint. Please refer to the link:https://github.com/devonfw/sonar-devon-plugin/wiki/guide-sonar-qube-setup[setup] guide in the respective repository, if you want to start using this plug-in.
 
 == MrChecker Framework (E2E Testing)
-The link:https://github.com/devonfw/devonfw-testing[MrChecker] framework for end-to-end testing is supplied in the form of a Maven project which you can extend with your own test cases. It supports the classic JUnit as well as the Cucumber test structure. Please visit the MrChecker link:https://github.com/devonfw/devonfw-testing/wiki[wiki] to learn more.
+The link:https://github.com/devonfw/devonfw-testing[MrChecker] framework for end-to-end testing is supplied in the form of a Maven project which you can extend with your own test cases. It supports the classic JUnit, as well as the Cucumber test structure. Please visit the MrChecker link:https://github.com/devonfw/devonfw-testing/wiki[wiki] to learn more.
 
+ifdef::env-github[]
 '''
-
-*You did it!* This is the final page of the _getting started_ guide. +
-We reccomend you bookmark this wiki and some of the links you found useful during reading.
+*You did it!* This is the final page of the _devonfw getting started guide_. +
+We reccomend, you bookmark links you found useful during reading in your browser.
+endif::[]

@@ -18,6 +18,10 @@ The tutorial is located in the documentation of the JumpTheQueue repository. You
 
 TIP: The tutorial assumes you have successfully completed the IDE setup previously.
 
+.Screenshots of the JumpTheQueue App.
+[caption=""]
+image::images/jtq-screens.png[JumpTheQueue Screenshots]
+
 ifdef::env-github[]
 '''
 *Next Step:* link:mythaistar[MyThaiStar Sample App]

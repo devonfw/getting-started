@@ -1,5 +1,7 @@
 # devonfw Getting Started Guide
 
+![devonfw logo](theme/images/devonfw-small.png "Welcome, new devonfw user!")
+
 Welcome!
 
 This repository is the primary entry-point for new **devonfw** users.\

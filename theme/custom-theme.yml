@@ -317,7 +317,7 @@ footer:
     right:
       content: '{page-number}'
     left:
-      content: image:./images/capgemini-corner.png[width=80]
+      content: image:./images/devonfw-corner.png[width=80]
 
   verso:
     center:
@@ -325,7 +325,7 @@ footer:
     right:
       content: '{page-number}'
     left:
-      content: image:./images/capgemini-corner.png[width=80]
+      content: image:./images/devonfw-corner.png[width=80]
       #content: '{page-number} | {chapter-title}'
     
 
@@ -342,14 +342,14 @@ header:
     center:
       content: devonfw getting started guide
     left:
-      content: image:./images/capgemini-corner.png[width=80]
-    right:
       content: image:./images/devonfw-corner.png[width=80]
+    #right:
+      #content: image:./images/devonfw-corner.png[width=80]
 
   verso:
     center:
       content: devonfw getting started guide
     left:
-      content: image:./images/capgemini-corner.png[width=80]
-    right:
       content: image:./images/devonfw-corner.png[width=80]
+    #right:
+      #content: image:./images/devonfw-corner.png[width=80]

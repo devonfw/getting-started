@@ -24,5 +24,5 @@ image::images/jtq-screens.png[JumpTheQueue Screenshots]
 
 ifdef::env-github[]
 '''
-*Next Step:* link:mythaistar[MyThaiStar Sample App]
+*Next Step:* link:mythaistar.asciidoc[MyThaiStar Sample App]
 endif::[]

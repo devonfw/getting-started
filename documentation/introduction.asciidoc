@@ -35,5 +35,5 @@ To learn more about CobiGen, please refer to the CobiGen https://github.com/devo
 
 ifdef::env-github[]
 '''
-*Next Step:* link:ide[IDE Setup]
+*Next Step:* link:ide.asciidoc[IDE Setup]
 endif::[]

@@ -1,13 +1,13 @@
-=== link:Home[Home]
+=== link:Home.asciidoc[Home]
 
-==== link:overview[Resource Overview]
+==== link:overview.asciidoc[Resource Overview]
 
-==== link:introduction[Framework Introduction]
+==== link:introduction.asciidoc[Framework Introduction]
 
-==== link:ide[IDE Setup]
+==== link:ide.asciidoc[IDE Setup]
 
-==== link:jumpthequeue[JumpTheQueue Tutorial App]
+==== link:jumpthequeue.asciidoc[JumpTheQueue Tutorial App]
 
-==== link:mythaistar[MyThaiStar Sample App]
+==== link:mythaistar.asciidoc[MyThaiStar Sample App]
 
-==== link:further-information[Further Information]
+==== link:further-information.asciidoc[Further Information]

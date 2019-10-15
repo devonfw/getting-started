@@ -22,7 +22,7 @@ Please be aware that the Extension Pack is quite 'extensive' and will take a whi
 ====
 
 == SonarQube Plug-in (Architecture Validation)
-The https://github.com/devonfw/sonar-devon-plugin[devon plug-in] for SonarQube can be used to validate if a certain project follows the devonfw architecture blueprint. Please refer to the https://github.com/devonfw/sonar-devon-plugin/wiki/guide-sonar-qube-setup[setup] guide in the respective repository, if you want to start using this plug-in.
+The https://github.com/devonfw/sonar-devon4j-plugin[devon4j plug-in] for SonarQube can be used to validate if a certain project follows the devonfw architecture blueprint. Please refer to the https://github.com/devonfw/sonar-devon-plugin/wiki/guide-sonar-qube-setup[setup] guide in the respective repository, if you want to start using this plug-in.
 
 == MrChecker Framework (E2E Testing)
 The https://github.com/devonfw/devonfw-testing[MrChecker] framework for end-to-end testing is supplied in the form of a Maven project which you can extend with your own test cases. It supports the classic JUnit, as well as the Cucumber test structure. Please visit the MrChecker https://github.com/devonfw/devonfw-testing/wiki[wiki] to learn more.

@@ -17,22 +17,25 @@ The following pages will guide you in your inital discovery of the *devonfw* fra
 TIP: Just follow the link at the bottom of this and each subsequent page to visit the listed pages in their intended order.
 
 == Resource Overview
-You will find a collection and short descriptions of the major devonfw resources link:overview[here].
+You will find a collection and short descriptions of the major devonfw resources link:overview.asciidoc[here].
 
 == Framework Introduction
-If you don't quite know what devonfw is all about yet, you will find a short introduction to the framework, its core ideas and the software stack behind it link:introduction[here].
+If you don't quite know what devonfw is all about yet, you will find a short introduction to the framework, its core ideas and the software stack behind it link:introduction.asciidoc[here].
 
 == IDE Setup
-If you want to start working with devonfw, you'll have to set up the development environment on your system first, which is explained link:ide[here].
+If you want to start working with devonfw, you'll have to set up the development environment on your system first, which is explained link:ide.asciidoc[here].
 
 == JumpTheQueue Tutorial App
-link:jumpthequeue[JumpTheQueue] is a small application, which you can build yourself by following a step-by-step tutorial. This will teach you more about the components, layers and workflow of devonfw.
+link:jumpthequeue.asciidoc[JumpTheQueue] is a small application, which you can build yourself by following a step-by-step tutorial. This will teach you more about the components, layers and workflow of devonfw.
 
 == MyThaiStar Sample App
-link:mythaistar[MyThaiStar] is a more complex sample app, that demonstrates the full capabilities of the devonfw stack and framework.
+link:mythaistar.asciidoc[MyThaiStar] is a more complex sample app, that demonstrates the full capabilities of the devonfw stack and framework.
+
+== Architecture
+If you are an experienced developer and want to become a devonfw architect, you can find a short overview over the technical reference architecture and links to the architecture documentations of the individual technology stacks link:architecture.asciidoc[here].
 
 == Further Information
-You can find links to advanced devonfw topics and other resources closely related to the framework link:further-information[here].
+You can find links to advanced devonfw topics and other resources closely related to the framework link:further-information.asciidoc[here].
 
 '''
-*First Step:* link:overview[Resource Overview]
+*First Step:* link:overview.asciidoc[Resource Overview]

@@ -51,5 +51,5 @@ image:images/run-mythaistar.png[Running the MyThaiStar Backend]
 
 ifdef::env-github[]
 '''
-*Final Step:* link:further-information.asciidoc[Further Information]
+*Next Step:* link:architecture.asciidoc[Further Information]
 endif::[]

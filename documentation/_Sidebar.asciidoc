@@ -10,4 +10,6 @@
 
 ==== link:mythaistar.asciidoc[MyThaiStar Sample App]
 
+==== link:architecture.asciidoc[Architecture]
+
 ==== link:further-information.asciidoc[Further Information]

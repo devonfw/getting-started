@@ -31,6 +31,9 @@ link:jumpthequeue.asciidoc[JumpTheQueue] is a small application, which you can b
 == MyThaiStar Sample App
 link:mythaistar.asciidoc[MyThaiStar] is a more complex sample app, that demonstrates the full capabilities of the devonfw stack and framework.
 
+== Architecture
+If you are an experienced developer and want to become a devonfw architect, you can find a short overview over the technical reference architecture and links to the architecture documentations of the individual technology stacks link:architecture.asciidoc[here].
+
 == Further Information
 You can find links to advanced devonfw topics and other resources closely related to the framework link:further-information.asciidoc[here].
 

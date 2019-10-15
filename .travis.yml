@@ -23,7 +23,7 @@ jobs:
         # Clone necessary repositories
         - git clone https://${GH_REPO_DEST}
         # Clean up wiki repository, copy documentation there and adjust files for GitHub wiki
-        - cd ${REPO_DEST} && rm * && rm -r images && cd ..
+        - cd ${REPO_DEST} && rm -rf * && cd ..
         - yes | cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/
         - cd ${REPO_DEST}
         - grep -lr "link:[a-zA-Z0-9_.-]*\.asciidoc\[" . | xargs -r sed -i "s/.asciidoc//g"

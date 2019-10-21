@@ -32,7 +32,7 @@ The GitHub repositories within the https://github.com/devonfw[devonfw organizati
 image::images/devonfw-org.png[devonfw Repository Overview]
 
 == Distribution
-The devonfw http://de-mucevolve02/files/devonfw/[distribution] contains the complete collection of software used by devonfw. It is provided in the form of an archive (`.zip` for Windows / `.tar.gz` for Linux/macOS). The distribution contains all tools you'll need to develop fully fledged devonfw applications.
+The devonfw https://repo.maven.apache.org/maven2/com/devonfw/tools/ide/devon-ide-scripts/[distribution] contains scripts that will help you manage your projects as well as the software packages used by devonfw. It is provided in the form of a `.tar.gz` archive (we recommend https://www.7-zip.org/[7-Zip] to unpack this archive on Windows).
 
 == Guide
 The devonfw https://github.com/devonfw/devonfw-guide/raw/master/devonfw_guide.pdf[guide] is a PDF document with over 900 (!) pages. It represents the totality of devonfw's documentation. It is always up-to-date (due to being automatically generated) and included in each release of the distribution.

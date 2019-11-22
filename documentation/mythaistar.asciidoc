@@ -43,9 +43,9 @@ image:images/run-mythaistar.png[Running the MyThaiStar Backend]
 
 . Return to your command shell and perform: `cd angular`
 
-. Execute: `yarn install`
+. Execute: `npm install`
 
-. Execute: `yarn start`
+. Execute: `ng serve`
  
 . Once started, the frontend will be available at http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password "*waiter*" and take a look at the various functionalities provided by MyThaiStar.
 

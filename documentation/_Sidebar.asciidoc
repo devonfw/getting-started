@@ -1,15 +1,13 @@
-=== link:Home.asciidoc[Home]
+=== link:guide-getting-started-introduction.asciidoc[Introduction]
 
-==== link:overview.asciidoc[Resource Overview]
+==== link:guide-getting-started-personas.asciidoc[User Groups (Personas)]
 
-==== link:introduction.asciidoc[Framework Introduction]
+* link:guide-persona-junior-engineer.asciidoc[Junior Engineer]
 
-==== link:ide.asciidoc[IDE Setup]
+* link:guide-persona-senior-engineer.asciidoc[Senior Engineer]
 
-==== link:jumpthequeue.asciidoc[JumpTheQueue Tutorial App]
+* link:guide-persona-architect.asciidoc[Architect]
 
-==== link:mythaistar.asciidoc[MyThaiStar Sample App]
+==== link:guide-further-information.asciidoc[Further Information]
 
-==== link:architecture.asciidoc[Architecture]
-
-==== link:further-information.asciidoc[Further Information]
+==== link:guide-resource-overview.asciidoc[Resource Overview]

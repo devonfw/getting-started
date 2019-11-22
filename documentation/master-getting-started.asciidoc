@@ -1,0 +1,15 @@
+= Getting Started
+
+include::guide-getting-started-introduction.asciidoc[leveloffset=1]
+
+include::guide-getting-started-personas.asciidoc[leveloffset=1]
+
+include::guide-persona-junior-engineer.asciidoc[leveloffset=2]
+
+include::guide-persona-senior-engineer.asciidoc[leveloffset=2]
+
+include::guide-persona-architect.asciidoc[leveloffset=2]
+
+include::guide-further-information.asciidoc[leveloffset=1]
+
+include::guide-resource-overview.asciidoc[leveloffset=1]

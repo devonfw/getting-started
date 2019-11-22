@@ -1,4 +1,3 @@
-// Please include this preamble in every page!
 :toc: macro
 toc::[]
 :idprefix:
@@ -9,15 +8,41 @@ ifdef::env-github[]
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
-:imagesdir: https://raw.githubusercontent.com/devonfw/getting-started/master/documentation/
 endif::[]
 
-= MyThaiStar Sample App
+= Persona: Junior Engineer
+
+== Content
+
+* https://github.com/devonfw/devonfw-tutorial-sources/[Tutorial Sources]
+** JumpTheQueue: small, simple application with step-by-step guide
+** MyThaiStar: more complex, full-stack application with deep documentation
+
+* More
+** https://github.com/devonfw/js-training[JavaScript Training]
+** https://github.com/devonfw/ng-training[Angular Training]
+** https://github.com/devonfw/devon4ng-training[devon4ng Training]
+** https://github.com/devonfw/devon4node/wiki/samples-step-by-step[devon4node Sample]
+
+== JumpTheQueue Tutorial App
+
+JumpTheQueue is a small application, which you can build yourself by following a step-by-step tutorial. This will teach you more about the components, layers and workflow of devonfw.
+
+Please visit the https://github.com/devonfw/devonfw-tutorial-sources/wiki[WIKI] page and start working trough the tutorial.
+
+TIP: The tutorial assumes you have successfully completed the IDE setup previously.
+
+.Screenshots of the JumpTheQueue App.
+[caption=""]
+image::images/jtq-screens.png[JumpTheQueue Screenshots]
+
+== MyThaiStar Sample App
+
 MyThaiStar is a more complex sample app, that demonstrates the full capabilities of the devonfw stack and framework.
 
 You should take a look at the project structure and familiarize yourself with it, since most devonfw projects follow this exemplary implementation. On this page we will describe how to launch the app on your system, so you can explore the different functionalities it offers.
 
-TIP: We assume you have successfully completed the IDE setup previously.
+TIP: We assume you have successfully set up the IDE previously.
 
 . In the root directory of the devonfw distribution, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:
 +
@@ -47,9 +72,4 @@ image:images/run-mythaistar.png[Running the MyThaiStar Backend]
 
 . Execute: `ng serve`
  
-. Once started, the frontend will be available at http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password "*waiter*" and take a look at the various functionalities provided by MyThaiStar.
-
-ifdef::env-github[]
-'''
-*Next Step:* link:architecture.asciidoc[Further Information]
-endif::[]
+. Once started, the frontend will be available at http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password `waiter` and take a look at the various functionalities provided by MyThaiStar.

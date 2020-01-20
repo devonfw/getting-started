@@ -1,0 +1,56 @@
+:toc: macro
+toc::[]
+:idprefix:
+:idseparator: -
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:imagesdir: https://raw.githubusercontent.com/devonfw/getting-started/master/documentation/
+endif::[]
+
+:doctype: book
+:reproducible:
+:source-highlighter: rouge
+:listing-caption: Listing
+
+= Explore Our devonfw Sample Application
+
+MyThaiStar is a complex sample app, that demonstrates the full capabilities of our framework. On this page we will describe how to download and launch the app on your system, so you can test the various functionalities it offers and explore its code.
+
+TIP: We assume you have successfully set up the https://github.com/devonfw/ide/wiki/setup[devonfw-ide] previously.
+
+. In the root directory of the a devonfw distribution, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:
++
+[source,bash]
+-----
+cd workspaces/main
+git clone https://github.com/devonfw/my-thai-star.git
+-----
+
+. Perform: `cd my-thai-star`
+
+. Execute: `devon eclipse ws-up`
+
+. Execute: `devon eclipse create-script`
+
+. Go to the root folder of the distribution and run `eclipse-main.bat`
+
+. In Eclipse navigate to `File > Import > Maven > Existing Maven Projects`, then import the cloned project from your workspace by clicking the "Browse" button and selecting `/workspaces/my-thai-star/java/mtsj/`.
+
+. Run the backend by right-clicking `SpringBootApp.java` and selecting `Run as > Java Application` in the context menu. The backend will start up and create log entries in the Eclipse Console tab.
++
+image:images/run-mythaistar.png[Running the MyThaiStar Backend]
+
+. Return to your command shell and perform: `cd angular`
+
+. Execute: `npm install`
+
+. Execute: `ng serve`
+ 
+. Once started, the frontend will be available at http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password `waiter` and take a look at the various functionalities provided by MyThaiStar.
+
+You should now take a look at both the front- and backend code and familiarize yourself with its structure and concepts, since most devonfw projects follow this exemplary implementation. Please visit the _architecture overview_ pages of https://github.com/devonfw/devon4ng/wiki/architecture[devon4ng] and https://github.com/devonfw/devon4j/wiki/architecture[devon4j] to learn more about the internal workings of front- and backend.

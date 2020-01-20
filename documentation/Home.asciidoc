@@ -12,9 +12,6 @@ ifdef::env-github[]
 endif::[]
 
 = Home
-The following pages will guide you in your inital discovery of the *devonfw* framework.
+The following pages offer useful information to aid you in your inital discovery of the *devonfw* framework.
 
-Just follow the link at the bottom of this and each subsequent page to visit the listed pages in their intended order.
-
-'''
-*First Step:* link:guide-getting-started-introduction.asciidoc[Introduction]
+Please select a topic from the sidebar to get started.

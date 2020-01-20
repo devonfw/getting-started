@@ -1,13 +1,37 @@
-=== link:guide-getting-started-introduction.asciidoc[Introduction]
+==== Introduction
 
-==== link:guide-getting-started-personas.asciidoc[User Groups (Personas)]
+* link:introduction-what-is-devonfw[What is devonfw?]
 
-* link:guide-persona-junior-engineer.asciidoc[Junior Engineer]
+* link:introduction-why-should-i-use-devonfw[Why should I use devonfw?]
 
-* link:guide-persona-senior-engineer.asciidoc[Senior Engineer]
+---
 
-* link:guide-persona-architect.asciidoc[Architect]
+==== For Students and Junior Engineers:
 
-==== link:guide-further-information.asciidoc[Further Information]
+* link:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development with devonfw]
 
-==== link:guide-resource-overview.asciidoc[Resource Overview]
+* link:guide-first-application.asciidoc[Build Your First devonfw Application]
+
+* link:guide-sample-application.asciidoc[Explore Our devonfw Sample Application]
+
+==== For Senior Engineers and Architects:
+
+* link:guide-sample-application.asciidoc[Explore Our devonfw Sample Application]
+
+==== For Team Leaders and Product Ambassadors:
+
+* link:guide-team-start.asciidoc[Get a Team Set up and Running with devonfw]
+
+* https://github.com/devonfw/solicitor[License Management for OSS Projects]
+
+---
+
+==== Further Information
+
+* link:further-info-repo-overview.asciidoc[Repository Overview]
+
+* link:further-info-community-links.asciidoc[Links to our Community]
+
+* https://github.com/devonfw/.github/blob/master/CODE_OF_CONDUCT.asciidoc[Code of Conduct]
+
+* https://github.com/devonfw/.github/blob/master/CONTRIBUTING.asciidoc[Contributing]

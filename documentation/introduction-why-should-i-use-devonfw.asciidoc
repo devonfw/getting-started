@@ -1,0 +1,78 @@
+:toc: macro
+toc::[]
+:idprefix:
+:idseparator: -
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:imagesdir: https://raw.githubusercontent.com/devonfw/getting-started/master/documentation/
+endif::[]
+
+:doctype: book
+:reproducible:
+:source-highlighter: rouge
+:listing-caption: Listing
+
+= Why should I use devonfw?
+
+devonfw aims to provide a framework for the development of web applications based on the Java EE programming model. It uses the Spring framework as its Java EE default implementation.
+
+== Objectives
+
+=== Standardization 
+
+We don't want to keep reinventing the wheel for thousands of projects, for hundreds of customers, across dozens of countries. For this reason, we aim to rationalize, harmonize and standardize the development assets for software projects and industrialize the software development process.
+
+=== Industrialization of Innovative Technologies & “Digital” 
+
+devonfw's goal is to standardize & industrialize. But this applies not only to large volume, “traditional” custom software development projects. devonfw also aims to offer a standardized platform which contains a range of state-of-the-art methodologies and technology stacks. devonfw supports agile development by small teams utilizing the latest technologies for projects related to Mobile, IoT and the Cloud.
+
+=== Deliver & Improve Business Value
+
+image::images/introduction/devon_quality_agility.png[,width="300", link="images/introduction/devon_quality_agility.png"]
+
+=== Efficiency
+
+* Up to 20% reduction in time to market, with faster delivery due to automation and reuse.
+* Up to 25% less implementation efforts due to code generation and reuse.
+* Flat pyramid and rightshore, ready for junior developers.
+
+=== Quality
+
+* State-of-the-art architecture and design. 
+* Lower cost on maintenance and warranty.
+* Technical debt reduction by reuse.
+* Risk reduction due to continuous improvement of individual assets.
+* Standardized, automated quality checks.
+
+=== Agility
+
+* Focus on business functionality, not on technicalities.
+* Shorter release cycles.
+* DevOps by design -- Infrastructure as Code.
+* Continuous Delivery pipeline.
+* On- and off-premise flexibility.
+* PoCs and prototypes in days not months.
+
+== Features
+
+=== Everything in a Single ZIP
+
+The devonfw distributions is packaged in a ZIP file that includes all the custom tools, software and configurations.
+
+Having all the dependencies self-contained in the distribution's ZIP file, users don't need to install or configure anything. Just extracting the ZIP content is enough to have a fully functional _devonfw_.
+
+=== devonfw -- The Package
+
+The devonfw platform provides:
+
+* Implementation blueprints for a modern cloud-ready server and a choice on JS-Client technologies (either open source Angular or a very rich and impressive solution based on commercial Sencha UI).
+* Quality documentation and step-by-step quick start guides.
+* Highly integrated and packaged development environment based around Eclipse and Jenkins. You will be ready to start implementing your first customer-specific use case in 2h time.
+* Iterative eclipse-based code-generator that understands "Java" and works on higher architectural concepts than Java-classes.
+* An example application as a reference implementation.
+* Support through a large community + industrialization services (Standard Platform as a Service) available in the iProd service catalog.

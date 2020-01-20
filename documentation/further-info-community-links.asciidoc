@@ -1,0 +1,32 @@
+:toc: macro
+toc::[]
+:idprefix:
+:idseparator: -
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:imagesdir: https://raw.githubusercontent.com/devonfw/getting-started/master/documentation/
+endif::[]
+
+:doctype: book
+:reproducible:
+:source-highlighter: rouge
+:listing-caption: Listing
+
+= Links to our Community
+
+== Microsoft Teams
+
+image:images/further-info/teams.png[Microsoft Teams Icon, 25] https://teams.microsoft.com/l/team/19%3af92c481ec30345a28a5434bc530a882a%40thread.skype/conversations?groupId=503df57a-d454-4eec-b3bc-d6d87c7c24f8&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61[LINK]
+
+== Yammer
+
+image:images/further-info/yammer.png[Yammer Icon, 25] https://www.yammer.com/capgemini.com/#/threads/inGroup?type=in_group&feedId=5030942[LINK]
+
+== E-Mail
+
+icsddevonfwsupport.apps2@capgemini.com

@@ -1,0 +1,51 @@
+:toc: macro
+toc::[]
+:idprefix:
+:idseparator: -
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:imagesdir: https://raw.githubusercontent.com/devonfw/getting-started/master/documentation/
+endif::[]
+
+:doctype: book
+:reproducible:
+:source-highlighter: rouge
+:listing-caption: Listing
+
+= Repository Overview
+
+The GitHub repositories within the https://github.com/devonfw[devonfw organization] contain the source code and documentation for official devonfw projects.
+
+.An overview of the devonfw organization repositories.
+[caption=""]
+image::images/further-info/devonfw-org.png[devonfw Repository Overview]
+
+The most relevant repositories here are the individual devonfw technology stacks:
+
+* https://github.com/devonfw/devon4j[devon4j] (for Java)
+* https://github.com/devonfw/devon4ng[devon4ng] (for Angular)
+* https://github.com/devonfw/devon4net[devon4net] (for .NET)
+* https://github.com/devonfw/devon4node[devon4node] (for Node.js)
+* https://github.com/devonfw/devon4x[devon4x] (for Xamarin)
+
+Our framework also delivers a number of tools and plug-ins that aim to accelerate and streamline the development process, for example:
+
+* https://github.com/devonfw/ide[devonfw-ide] (for environment/workspace setup)
+* https://github.com/devonfw/cobigen[CobiGen] (for automated code generation)
+* https://github.com/devonfw/sonar-devon4j-plugin[devon4j-sonar-plugin] (for architecture validation)
+* https://github.com/devonfw/mrchecker[MrChecker] (for E2E test automation)
+
+We also provide educational material and reference implementations to aid new users and drive the adoption of our framework, for example:
+
+* https://github.com/devonfw/jump-the-queue[JumpTheQueue] (simple, step-by-step app creation tutorial)
+* https://github.com/devonfw/my-thai-star[MyThaiStar] (well documented, complex reference application)
+* https://github.com/devonfw/devonfw-shop-floor[devonfw-shop-floor] (tools and tutorials for CI/CD efforts)
+* https://github.com/devonfw/accelerated-solution-design[accelerated-solution-design] (work-methodology for faster app design)
+* and many more ...
+
+Projects in early development and prototypes are located in the https://github.com/devonfw-forge[devonfw forge] repository. They usually remain there until they are ready for broader release or use in production.

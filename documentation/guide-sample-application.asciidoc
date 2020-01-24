@@ -23,7 +23,7 @@ MyThaiStar is a complex sample app, that demonstrates the full capabilities of o
 
 TIP: We assume you have successfully set up the https://github.com/devonfw/ide/wiki/setup[devonfw-ide] previously.
 
-. In the root directory of the a devonfw distribution, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:
+. In the root directory of a devonfw distribution, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:
 +
 [source,bash]
 -----

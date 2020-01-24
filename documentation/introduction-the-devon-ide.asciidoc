@@ -21,7 +21,7 @@ endif::[]
 
 "Devon IDE" is the general name for two distinct variants of a customized Eclipse IDE. The Open Source variant -- called _devonfw-ide_ -- is publicly available for everyone. A more extended variant is included in the "Devon Dist", which is only available to Capgemini employees.
 
-=== Features and Advantages
+== Features and Advantages
 
 devonfw comes with a fully featured IDE in order to simplify the installation, configuration and maintenance of this instrumental part of the development environment. As it is being included in the distribution, the IDE is ready to be used and some specific configuration of certain plugins only takes a few  minutes.
 
@@ -29,7 +29,7 @@ image::images/introduction/devon-ide/integrated-ide.png["Integrated IDE",width="
 
 As with the remainder of the distribution, the advantage of this approach is that you can have as many instances of the -ide "installed" on your machine for different projects with different tools, tool versions and configurations. No physical installation and no tweaking of your operating system required. "Installations" of the Devon distribution do not interfere with each other nor with other installed software.
 
-=== Multiple Workspaces
+== Multiple Workspaces
 
 There is inbuilt support for working with different workspaces on different branches. Create and update new workspaces with a few clicks. You can see the workspace name in the title-bar of your IDE so you do not get confused and work on the right branch.
 

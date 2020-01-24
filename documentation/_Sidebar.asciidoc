@@ -4,6 +4,8 @@
 
 * link:introduction-why-should-i-use-devonfw[Why should I use devonfw?]
 
+* https://github.com/devonfw/ide/wiki/setup[Dowload and Setup the devonfw-ide]
+
 ---
 
 ==== For Students and Junior Engineers:

@@ -23,3 +23,5 @@ include::guide-team-start[leveloffset=2]
 == Further Information
 
 include::further-info-repo-overview[leveloffset=2]
+
+include::further-info-community-links[leveloffset=2]

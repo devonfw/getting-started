@@ -6,9 +6,9 @@ include::introduction-what-is-devonfw[leveloffset=2]
 
 include::introduction-why-should-i-use-devonfw[leveloffset=2]
 
-include::introduction-the-devon-ide[leveloffset=2]
+//include::introduction-the-devon-ide[leveloffset=2]
 
-include::introduction-download-and-setup[leveloffset=2]
+//include::introduction-download-and-setup[leveloffset=2]
 
 == Guides
 

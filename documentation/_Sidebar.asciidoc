@@ -4,27 +4,27 @@
 
 * link:introduction-why-should-i-use-devonfw[Why should I use devonfw?]
 
-* https://github.com/devonfw/ide/wiki/setup[Dowload and Setup the devonfw-ide]
+* https://github.com/devonfw/ide/wiki/setup[devonfw-ide Dowload and Setup]
 
 ---
 
 ==== For Students and Junior Engineers:
 
-* link:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development with devonfw]
+* link:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development.]
 
-* link:guide-first-application.asciidoc[Build Your First devonfw Application]
+* link:guide-first-application.asciidoc[Build your first devonfw application.]
 
-* link:guide-sample-application.asciidoc[Explore Our devonfw Sample Application]
+* link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
 
 ==== For Senior Engineers and Architects:
 
-* link:guide-sample-application.asciidoc[Explore Our devonfw Sample Application]
+* link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
 
 ==== For Team Leaders and Product Ambassadors:
 
-* link:guide-team-start.asciidoc[Get a Team Set up and Running with devonfw]
+* link:guide-team-start.asciidoc[Get a team set up and running with devonfw.]
 
-* https://github.com/devonfw/solicitor[License Management for OSS Projects]
+* https://github.com/devonfw/solicitor[License management for OSS projects.]
 
 ---
 
@@ -32,7 +32,7 @@
 
 * link:further-info-repo-overview.asciidoc[Repository Overview]
 
-* link:further-info-community-links.asciidoc[Links to our Community]
+* link:further-info-community-links.asciidoc[Community Links]
 
 * https://github.com/devonfw/.github/blob/master/CODE_OF_CONDUCT.asciidoc[Code of Conduct]
 

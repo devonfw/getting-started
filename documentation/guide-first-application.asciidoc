@@ -19,12 +19,15 @@ endif::[]
 
 = Build Your First devonfw Application
 
-JumpTheQueue is a small application based on the devonfw framework, which you can build yourself by following our simple step-by-step tutorial. By doing so, you will learn about the app development workflow and gain insight into the design of a professional business information systems.
+https://github.com/devonfw/jump-the-queue[JumpTheQueue] is a small application based on the devonfw framework, which you can create yourself by following our simple step-by-step tutorial. By doing so, you will learn about the app development workflow and gain insight into the design of a professional business information system. Please visit the JumpTheQueue wiki and start working trough the tutorial https://github.com/devonfw/jump-the-queue/wiki[*HERE*].
 
-.Some screenshots of the JumpTheQueue UI.
-[caption=""]
-image::images/jtq-screens.png[JumpTheQueue Screenshots]
+TIP: The tutorial assumes you have successfully set up the https://github.com/devonfw/ide/wiki/setup[devonfw-ide] previously.
 
-TIP: The tutorial assumes you have successfully completed the https://github.com/devonfw/ide/wiki/setup[devonfw-ide] setup previously.
+You can also clone the project and explore the finished source code via:
 
-Please visit the JumpTheQueue wiki and start working trough the tutorial https://github.com/devonfw/jump-the-queue/wiki[*HERE*].
+[source,bash]
+-----
+git clone https://github.com/devonfw/jump-the-queue.git
+-----
+
+image::images/guide/jtq-screens.png[JumpTheQueue Screenshots]

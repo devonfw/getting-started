@@ -1,4 +1,3 @@
-// Please include this preamble in every page!
 :toc: macro
 toc::[]
 :idprefix:
@@ -12,6 +11,5 @@ ifdef::env-github[]
 endif::[]
 
 = Home
-The following pages offer useful information to aid you in your inital discovery of the *devonfw* framework.
-
-Please select a topic from the sidebar to get started.
+Welcome to the wiki pages of the *devonfw* getting-started guide! +
+Please select a topic from the sidebar. =>

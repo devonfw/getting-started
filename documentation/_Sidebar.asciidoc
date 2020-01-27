@@ -10,7 +10,7 @@
 
 ==== For Students and Junior Engineers:
 
-* link:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development.]
+// * link:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development.]
 
 * link:guide-first-application.asciidoc[Build your first devonfw application.]
 
@@ -22,7 +22,7 @@
 
 ==== For Team Leaders and Product Ambassadors:
 
-* link:guide-team-start.asciidoc[Get a team set up and running with devonfw.]
+// * link:guide-team-start.asciidoc[Get a team set up and running with devonfw.]
 
 * https://github.com/devonfw/solicitor[License management for OSS projects.]
 
@@ -34,6 +34,6 @@
 
 * link:further-info-community-links.asciidoc[Community Links]
 
-* https://github.com/devonfw/.github/blob/master/CODE_OF_CONDUCT.asciidoc[Code of Conduct]
-
 * https://github.com/devonfw/.github/blob/master/CONTRIBUTING.asciidoc[Contributing]
+
+* https://github.com/devonfw/.github/blob/master/CODE_OF_CONDUCT.asciidoc[Code of Conduct]

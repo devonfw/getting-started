@@ -21,19 +21,20 @@ Please follow these guidelines when maintaining the *getting-started* repository
 
 - In the **_Sidebar**:
 
-  - link AsciiDoc pages located in this repo via `link:asciidoc-file-name.asciidoc[title]`
+  - link AsciiDoc pages located in this repo via `link:asciidoc-file-name.asciidoc[link title]`\
+  (Please make sure to include the `.asciidoc` file extension here!)
 
-  - link external references via `https://online-url.domain#anchor[title]`
+  - link external pages via `https://online-url.domain#anchor[link title]`
 
 - In **master-getting-started**:
 
-  - include AsciiDoc pages located in this repo via `include::asciidoc-file-name[leveloffset=2]`\
+  - include AsciiDoc pages located in this repo via `include::file-name[leveloffset=2]`\
   (Please make sure to omit the `.asciidoc` file extension here!)
-  
-  - reference AsciiDoc pages located in this repo via `link:level-0-title-of-page[displayed-title]`
 
-  - reference AsciiDoc pages **NOT** located in this repo via `link:level-0-title-of-page[displayed-title]`\
-  (Please note, that these links will **NOT** work in the GitHub wiki and standalone PDF of the getting-started guide. They will however work on the devonfw website and in the complete devonfw-guide PDF, which is our priority.)
+  - reference AsciiDoc sections via `xref:section-title[link title]`
+
+  - reference AsciiDoc pages and top-level sections via `link:file-name#section-title[link title]`\
+  (Please note, that these links will **NOT** work in the GitHub wiki and standalone PDF, if the linked files are not located in this repo. They will however work on the devonfw website and in the complete devonfw-guide PDF, which is our priority.)
 
 - Follow the general [docgen guidelines](https://github.com/devonfw/docgen/wiki#guidelines) and [asciidoc file guidelines](https://github.com/devonfw/devonfw-guide/issues/43)
 

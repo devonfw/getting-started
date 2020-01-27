@@ -12,9 +12,7 @@ Please refer to our link:devonfw-ide-introduction#setup[devonfw-ide Setup] secti
 
 == Guides
 
-Our goal is to provide a smooth starting experience to all users of _devonfw_, no matter how experienced they are or what their stakeholder role is. To achieve this  this reason we provide a list of curated 
-
-// IMPORTANT: Keep the following list in sync with '_Sidebar.asciidoc'!
+Our goal is to provide a smooth starting experience to all users of _devonfw_, no matter how experienced they are or what their stakeholder role is. To achieve this, we provide a list of recommended guides here:
 
 *For Students and Junior Engineers:*
 

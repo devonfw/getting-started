@@ -1,15 +1,39 @@
-=== link:Home.asciidoc[Home]
+==== Introduction
 
-==== link:overview.asciidoc[Resource Overview]
+* link:introduction-what-is-devonfw[What is devonfw?]
 
-==== link:introduction.asciidoc[Framework Introduction]
+* link:introduction-why-should-i-use-devonfw[Why should I use devonfw?]
 
-==== link:ide.asciidoc[IDE Setup]
+* https://github.com/devonfw/ide/wiki/setup[devonfw-ide Dowload and Setup]
 
-==== link:jumpthequeue.asciidoc[JumpTheQueue Tutorial App]
+---
 
-==== link:mythaistar.asciidoc[MyThaiStar Sample App]
+==== For Students and Junior Engineers:
 
-==== link:architecture.asciidoc[Architecture]
+// * link:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development.]
 
-==== link:further-information.asciidoc[Further Information]
+* link:guide-first-application.asciidoc[Build your first devonfw application.]
+
+* link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
+
+==== For Senior Engineers and Architects:
+
+* link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
+
+==== For Team Leaders and Product Ambassadors:
+
+// * link:guide-team-start.asciidoc[Get a team set up and running with devonfw.]
+
+* https://github.com/devonfw/solicitor[License management for OSS projects.]
+
+---
+
+==== Further Information
+
+* link:further-info-repo-overview.asciidoc[Repository Overview]
+
+* link:further-info-community-links.asciidoc[Community Links]
+
+* https://github.com/devonfw/.github/blob/master/CONTRIBUTING.asciidoc[Contributing]
+
+* https://github.com/devonfw/.github/blob/master/CODE_OF_CONDUCT.asciidoc[Code of Conduct]

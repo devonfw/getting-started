@@ -1,0 +1,93 @@
+:toc: macro
+toc::[]
+:idprefix:
+:idseparator: -
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:imagesdir: https://raw.githubusercontent.com/devonfw/getting-started/master/documentation/
+endif::[]
+
+:doctype: book
+:reproducible:
+:source-highlighter: rouge
+:listing-caption: Listing
+
+= What is devonfw?
+
+image::images/introduction/devonfw-small.png[,align="center",width="250",devonfw, link="https://devonfw.com/"]
+
+Welcome to the *devonfw* platform. This is a product of the CSD (Custom Solution Development) industrialization effort to establish a standardized platform for custom software development within Capgemini APPS2. This platform is aimed at engagements, in which clients don't specify the use of a predefined technology stack. In these cases we can offer a proven alternative as a result of our experience as a group.
+
+devonfw is a development platform aiming for the standardization of processes and the boosing of productivity. It provides an architecture blueprint for server and client applications, alongside a set of tools to deliver a fully functional, _out-of-the-box_ development environment.
+
+TIP: The devonfw _name_ is a registered trademark of image:images/introduction/Capgemini_Logo_Small.png[,width="80",Capgemini,link="https://www.capgemini.com/"], but the software and documentation included in _devonfw_ are fully open source. Please refer to our https://github.com/devonfw/devonfw-guide/blob/master/general/oss-compliance.asciidoc[OSS Compliance] section for more information.
+
+== Building Blocks of the Platform
+
+image::images/introduction/devonfwcatalog.png[,width="650",devonfw Building blocks,link="images/introduction/devonfwcatalog.png"]
+
+_devonfw_ uses a state-of-the-art, open source, core reference architecture for the server (these days considered a commodity in the IT-industry) and on top of that an ever increasing number of high-value assets, which are developed by Capgemini.
+
+== The devonfw Technology Stack
+devonfw is fully open source and consists of the following technology stacks:
+
+=== Back-End Solutions
+For server applications, _devonfw_ includes the following solutions:
+
+* https://github.com/devonfw/devon4j[devon4j]: Server implementation based on Java, https://spring.io/[Spring] and https://projects.spring.io/spring-boot/[Spring Boot].
+* https://github.com/devonfw/devon4net[devon4net]: Server implementation based on https://dotnet.microsoft.com/[.NET].
+* https://github.com/devonfw/devon4node[devon4node]: Server implementation based on https://nestjs.com/[NestJS].
+
+=== Front-End solutions
+For client applications, _devonfw_ includes two solutions based on _TypeScript_, _JavaScript_, _C#_ and _.NET_:
+
+* https://github.com/devonfw/devon4ng[devon4ng]: Frontend implementation based on https://angular.io/[Angular] and a hybrid mobile implementation based on https://ionicframework.com/[Ionic].
+* https://github.com/devonfw/devon4x[devon4X]: Mobile implementation based on https://docs.microsoft.com/xamarin/[Xamarin].
+
+== Custom Tools
+
+=== devonfw-ide
+The https://github.com/devonfw/ide/wiki#devonfw-ide[devonfw-ide] is _not_ one monolithic program that is installed with a traditional executable; rather it's a collection of scripts which are invoked via command line to automate several, repetetive development tasks. These scripts then interact with other tools, frameworks, and third-party IDEs to streamline the development workflow.
+
+image::images/introduction/devonfw-ide.png[,width="550", link="images/introduction/devonfw-ide.png"]
+
+The advantage of this approach is, that you can have as many instances of the _devonfw-ide_ on your machine as you need -- for different projects with different tools, tool versions and configurations. No need for a physical installation and no tweaking of your operating system required!
+
+Instances of the devonfw-ide do not interfere with each other, nor with other installed software. The package size of the _devonfw-ide_ is initally very small, the setup is simple, and the included software is portable.
+
+==== IDEs
+It supports the following IDEs:
+
+* https://www.eclipse.org/ide/[Eclipse]
+* https://code.visualstudio.com/[Visual Studio Code]
+* https://www.jetbrains.com/idea/[IntelliJ IDEA]
+
+==== Platforms
+It supports the following platforms:
+
+* https://go.java/index.html[Java] (see also https://github.com/devonfw/devon4j/wiki[devon4j])
+* https://nodejs.org/en/[Node.js] (see also https://github.com/devonfw/devon4node/wiki/[devon4node])
+* https://angular.io/[Angular] (see also https://github.com/devonfw/devon4ng/wiki[devon4ng])
+* https://docs.microsoft.com/en-us/dotnet/csharp/[C#] (see also https://github.com/devonfw/devon4net/wiki[devon4net])
+
+==== Build-Systems
+It supports the following build-systems:
+
+* https://maven.apache.org/[Maven]
+* https://www.npmjs.com/[NPM]
+* https://gradle.org/[Gradle]
+
+TIP: Other IDEs, platforms, or tools can easily be integrated as https://github.com/devonfw/ide/wiki/cli#commandlets[commandlets].
+
+=== CobiGen
+
+https://github.com/devonfw/cobigen/wiki#architecture[CobiGen] is a code generator included in the _devonfw-ide_, that allows users to generate the project structure and large parts of the application component code. This saves a lot of time, which is usually wasted on repetitive engineering tasks and/or writing boilerplate code.
+
+image::images/introduction/cobigen.png[,width="550", link="images/introduction/cobigen.png"]
+
+Following the same philosophy as the devonfw-ide, _CobiGen_ bundles a new command line interface (CLI), that enables the generation of code using only a few commands. This approach also allows us to decouple CobiGen from _Eclipse_ and use it alongside _VS Code_ or _IntelliJ IDEA_.

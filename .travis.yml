@@ -5,8 +5,10 @@ env:
     - EMAIL="icsddevonfwsupport.apps2@capgemini.com"
     - REPO_SOURCE="getting-started"
     - REPO_DEST="getting-started.wiki"
+    - REPO_CONSOLIDATE="devonfw-guide"
     - GH_REPO_SOURCE="github.com/${ORG}/${REPO_SOURCE}.git"
     - GH_REPO_DEST="github.com/${ORG}/${REPO_DEST}.git"
+    - GH_REPO_CONSOLIDATE="github.com/${ORG}/${REPO_CONSOLIDATE}.git"
     - secure: SjDW/60KC9qs9IdFc2KBj0Yx2lIJm08DwMEH/jehphl5LRJFLKj7jIL4kK2tDecOdwoiLpPwQQyzqXbo+5xQOCgOkNQ2PhhSmgv7PfP7D91yjqYA/6xQFBFCp7RyRfK/RqIcOma7vlpNzAJQvlCZnTyS5uAYW3IxTRRI/sk3sPs0aKFIR6u07z3IhUUs8XCFjhxBO3LR7nNMEoN1sN6pRYAtpVDXzMWjZ1y9VXPngc93QD4fmVNBRDeyxlG3K8ayjF5kNTb3UFac1M/hGsGRENXp88DPa1phBBLPp8sbLTcAZMa89GbKQsgii2pJ2uNITmHDTTz65HVHIGT5WdIztXF/PN50Xkzpmdx3/fB8ly5TnpkzF2juAJ8Ru2iKIKHv8kELmaoq99yZ0Hzalt4jKDT0NCYCuADVVv3HwzRl69rJ7ElxkI32ucltkjIPrecMkSCvQchrE9PWIi9LWVCsAQzGTA+yLvreKkmAHIkxyGFWrlu6K+kRnbTYuiI8hxdH/XM09IRhahpdi0GhdRT6x81kx1Dto0OD83kRRkMcWfKkpkYKgmsOu4WNwPfV5eDRN2WBT60qukTcRU1eYq2uaL5EqmRLsFSTnIFxMXRu5YDVzYDfZG074hiJLby/m/nreDZB25uOzuxiqSe8ZGqQkAeKgLKP5akRpiZ1QG5tNlU=
 install: true
 before_install:
@@ -20,7 +22,6 @@ jobs:
   include:
     - stage: Documentation
       script:
-        - pwd
         # Clone necessary repositories
         - git clone https://${GH_REPO_DEST}
         # Clean up wiki repository, copy documentation there
@@ -42,6 +43,20 @@ jobs:
             git add .
             git commit -m "${REPO_SOURCE} documentation | Travis CI build number $TRAVIS_BUILD_NUMBER"
             git remote add origin-wiki "https://${USER}:${GITHUB_TOKEN}@${GH_REPO_DEST}"
+            git push origin-wiki master
+            
+            # Update snapshot in consolidated repository
+            cd ../${REPO_CONSOLIDATE}
+            if [ ! -d ${REPO_DEST} ]; then git submodule add https://${GH_REPO_DEST}; fi;
+            git submodule init
+            git submodule update --recursive --remote
+            cd ${REPO_DEST}
+            git checkout master
+            git pull
+            cd ..
+            git add .
+            git commit -m "${REPO_SOURCE} documentation | Travis CI build number $TRAVIS_BUILD_NUMBER"
+            git remote add origin-wiki "https://${GITHUB_TOKEN}@${GH_REPO_CONSOLIDATE}"
             git push origin-wiki master
           fi
     - stage: Generate PDF

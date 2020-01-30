@@ -8,7 +8,7 @@ include::introduction-why-should-i-use-devonfw[leveloffset=2]
 
 === devonfw-ide Dowload and Setup
 
-Please refer to our xref:devonfw-ide-introduction#setup[devonfw-ide Setup] section.
+Please refer to our link:devonfw-ide-introduction#setup[devonfw-ide Setup] section.
 
 == Guides
 
@@ -49,4 +49,4 @@ Please refer to our link:master-contributing[Contributing] section.
 
 === Code of Conduct
 
-Please refer to our xref:code-of-conduct[Code of Conduct] section.
+Please refer to our link:code-of-conduct[Code of Conduct] section.

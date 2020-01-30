@@ -24,6 +24,7 @@ jobs:
       script:
         # Clone necessary repositories
         - git clone https://${GH_REPO_DEST}
+        - git clone https://${GH_REPO_CONSOLIDATE}
         # Clean up wiki repository, copy documentation there
         - cd ${REPO_DEST} && rm -rf * && cd ..
         - yes | cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/

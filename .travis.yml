@@ -20,6 +20,7 @@ jobs:
   include:
     - stage: Documentation
       script:
+        - pwd
         # Clone necessary repositories
         - git clone https://${GH_REPO_DEST}
         # Clean up wiki repository, copy documentation there

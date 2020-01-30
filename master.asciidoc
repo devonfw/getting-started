@@ -11,4 +11,4 @@ Updated at {localdatetime}
 :chapter-label:
 :partnums:
 
-include::documentation/master-getting-started[leveloffset=0]
+include::documentation/getting-started[leveloffset=0]

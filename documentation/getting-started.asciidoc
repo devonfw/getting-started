@@ -49,4 +49,4 @@ Please refer to our link:master-contributing[Contributing] section.
 
 === Code of Conduct
 
-Please refer to our link:CODE_OF_CONDUCT.asciidoc#[Code of Conduct] section.
+Please refer to our link:CODE_OF_CONDUCT[Code of Conduct] section.

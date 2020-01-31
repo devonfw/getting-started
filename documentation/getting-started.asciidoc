@@ -17,12 +17,12 @@ Our goal is to provide a smooth starting experience to all users of _devonfw_, n
 *For Students and Junior Engineers:*
 
 // * xref:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development.]
-* xref:build-your-first-devonfw-application[Build your first devonfw application.]
-* xref:explore-our-devonfw-sample-application[Explore the devonfw sample application.]
+* link:guide-first-application.asciidoc[Build your first devonfw application.]
+* link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
 
 *For Senior Engineers and Architects:*
 
-* xref:explore-our-devonfw-sample-application[Explore the devonfw sample application.]
+* link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
 
 *For Team Leaders and Product Ambassadors:*
 

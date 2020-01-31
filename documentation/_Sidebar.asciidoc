@@ -4,7 +4,7 @@
 
 * link:introduction-why-should-i-use-devonfw[Why should I use devonfw?]
 
-* https://github.com/devonfw/ide/wiki/setup[devonfw-ide Dowload and Setup]
+* https://github.com/devonfw/ide/blob/master/documentation/setup.asciidoc[devonfw-ide Dowload and Setup]
 
 ---
 
@@ -12,9 +12,14 @@
 
 // * link:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development.]
 
-* link:guide-first-application.asciidoc[Build your first devonfw application.]
-
 * link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
+
+* link:guide-first-application.asciidoc[Build your first application with *devon4j/devon4ng*.]
+
+* https://github.com/devonfw/devon4node/blob/develop/documentation/samples-step-by-step.asciidoc[Create an application with *devon4node*.]
+
+* https://github.com/devonfw/devon4net/blob/develop/documentation/howto.asciidoc[Create an application with *devon4net*.]
+
 
 ==== For Senior Engineers and Architects:
 

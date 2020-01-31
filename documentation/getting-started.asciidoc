@@ -17,8 +17,10 @@ Our goal is to provide a smooth starting experience to all users of _devonfw_, n
 *For Students and Junior Engineers:*
 
 // * xref:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development.]
-* link:guide-first-application.asciidoc[Build your first devonfw application.]
 * link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
+* link:guide-first-application.asciidoc[Build your first application with *devon4j/devon4ng*.]
+* link:samples-step-by-step.asciidoc[Create an application with *devon4node*.]
+* link:howto.asciidoc[Create an application with *devon4net*.]
 
 *For Senior Engineers and Architects:*
 

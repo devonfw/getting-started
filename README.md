@@ -5,7 +5,7 @@
 Welcome!
 
 This getting-started guide is the entry-point for new **devonfw** users.\
-You can work through it by either visiting the [wiki](https://github.com/devonfw/getting-started/wiki) tab here on GitHub or by downloading the [PDF](https://github.com/devonfw/getting-started/raw/master/devonfw_getting_started.pdf).
+You can work through it by either visiting the [wiki](https://github.com/devonfw/getting-started/wiki) tab here on GitHub or by downloading the [PDF](https://github.com/devonfw/getting-started/raw/develop/devonfw_getting_started.pdf).
 
 Happy coding! :thumbsup:
 

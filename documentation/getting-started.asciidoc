@@ -8,7 +8,7 @@ include::introduction-why-should-i-use-devonfw[leveloffset=2]
 
 === devonfw-ide Dowload and Setup
 
-Please refer to our <<devonfw-ide-introduction#setup.asciidoc, devonfw-ide Setup>> section.
+Please refer to our <<devonfw-ide-introduction.asciidoc#setup.asciidoc, devonfw-ide Setup>> section.
 
 == Guides
 

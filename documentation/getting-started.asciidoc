@@ -1,0 +1,54 @@
+= Getting Started
+
+== Introduction
+
+include::introduction-what-is-devonfw[leveloffset=2]
+
+include::introduction-why-should-i-use-devonfw[leveloffset=2]
+
+=== devonfw-ide Dowload and Setup
+
+Please refer to our <<devonfw-ide-introduction.asciidoc.asciidoc#setup.asciidoc, devonfw-ide Setup>> section.
+
+== Guides
+
+Our goal is to provide a smooth starting experience to all users of _devonfw_, no matter how experienced they are or what their stakeholder role is. To achieve this, we provide a list of recommended guides here: 
+
+*For Students and Junior Engineers:*
+
+// * xref:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development.]
+* link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
+* link:guide-first-application.asciidoc[Build your first application with *devon4j/devon4ng*.]
+* link:samples-step-by-step.asciidoc[Create an application with *devon4node*.]
+* link:howto.asciidoc[Create an application with *devon4net*.]
+
+*For Senior Engineers and Architects:*
+
+* link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
+
+*For Team Leaders and Product Ambassadors:*
+
+// * xref:get-a-team-set-up-and-running-with-devonfw[Get a team set up and running with devonfw.]
+* https://github.com/devonfw/solicitor[License management for OSS projects.]
+
+//include::guide-enterprise-dev-basics[leveloffset=2] // TBD
+
+include::guide-first-application[leveloffset=2]
+
+include::guide-sample-application[leveloffset=2]
+
+//include::guide-team-start[leveloffset=2] // TBD
+
+== Further Information
+
+include::further-info-repo-overview[leveloffset=2]
+
+include::further-info-community-links[leveloffset=2]
+
+=== Contributing
+
+Please refer to our link:master-contributing[Contributing] section.
+
+=== Code of Conduct
+
+Please refer to our link:CODE_OF_CONDUCT[Code of Conduct] section.

@@ -38,6 +38,8 @@ include::guide-first-application[leveloffset=2]
 
 include::guide-sample-application[leveloffset=2]
 
+include::guide-to-implement-istio[leveloffset=2]
+
 //include::guide-team-start[leveloffset=2] // TBD
 
 == Further Information

@@ -4,7 +4,7 @@
 
 * link:introduction-why-should-i-use-devonfw[Why should I use devonfw?]
 
-* https://github.com/devonfw/ide/blob/master/documentation/setup.asciidoc[devonfw-ide Dowload and Setup]
+* https://github.com/devonfw/ide/blob/master/documentation/setup.asciidoc[devonfw-ide Download and Setup]
 
 ---
 
@@ -24,6 +24,7 @@
 ==== For Senior Engineers and Architects:
 
 * link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
+* link:guide-to-implement-istio.asciidoc[Explore the guide to implement ISTIO features.]
 
 ==== For Team Leaders and Product Ambassadors:
 

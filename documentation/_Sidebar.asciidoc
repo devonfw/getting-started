@@ -24,7 +24,7 @@
 ==== For Senior Engineers and Architects:
 
 * link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
-* link:guide-to-implement-istio.asciidoc[Explore the guide to implement ISTIO features.]
+* link:guide-istio.asciidoc[Explore the guide to implement ISTIO features.]
 
 ==== For Team Leaders and Product Ambassadors:
 

@@ -25,7 +25,6 @@ Our goal is to provide a smooth starting experience to all users of _devonfw_, n
 *For Senior Engineers and Architects:*
 
 * link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
-* link:guide-istio.asciidoc[Explore the guide to implement ISTIO features.]
 
 *For Team Leaders and Product Ambassadors:*
 
@@ -37,8 +36,6 @@ Our goal is to provide a smooth starting experience to all users of _devonfw_, n
 include::guide-first-application[leveloffset=2]
 
 include::guide-sample-application[leveloffset=2]
-
-include::guide-istio[leveloffset=2]
 
 //include::guide-team-start[leveloffset=2] // TBD
 

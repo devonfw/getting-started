@@ -21,6 +21,11 @@ endif::[]
 
 https://github.com/devonfw/my-thai-star[MyThaiStar] is a complex sample app, that demonstrates the full capabilities of our framework. On this page we will describe how to download and launch the app on your system, so you can test the various functionalities it offers and explore its code.
 
+You can also check out the interactive katacoda scenario for setting up and trying out the MyThaiStar-Application.
+
+[.katacoda-links]
+https://katacoda.com/devonfw/scenarios/my-thai-star-java[MyThaiStar Katacoda Scenario]
+
 TIP: We assume you have successfully set up the https://github.com/devonfw/ide/wiki/setup[devonfw-ide] previously.
 
 . In the root directory of a _devonfw-ide_ directory, right click and select "*Open Devon CMD shell here*" from the Windows Explorer context menu. Then navigate to the main workspace and checkout the MyThaiStar Git repository like this:

@@ -16,7 +16,7 @@ on:
             - develop
 name: Documentation
 jobs:
-    include:
+    update-wiki::
         if:  ${{github.repository == 'devonfw/getting-started'}}
         runs-on: ubuntu-latest
         steps:

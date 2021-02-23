@@ -13,7 +13,7 @@ env:
 on:
     push:
         branches:
-            - master
+            - develop
 name: Documentation
 jobs:
     update-wiki:
@@ -22,8 +22,8 @@ jobs:
         steps:
           - name: Clone necessary repositories
             run: |
-                git clone https://${GH_REPO_DEST}
-                git clone https://${GH_REPO_CONSOLIDATE}
+                git clone https://github.com/${ORG}/${REPO_SOURCE}.git ${GH_REPO_DEST}
+                git clone https://github.com/${ORG}/${REPO_CONSOLIDATE}.git ${GH_REPO_CONSOLIDATE}
             shell: bash
           - name: Clean up wiki repository, copy documentation there
             run: |
@@ -39,17 +39,17 @@ jobs:
               pkill -9 -P $$ &> /dev/null || true 
               exit 0
               else 
-              git config user.email ${EMAIL}
-              git config user.name ${USER}
+              git config user.email ${BUILD_USER_EMAIL}
+              git config user.name ${BUILD_USER}
               git status
               git add .
               git commit -m "${REPO_SOURCE} documentation | Travis CI build number $TRAVIS_BUILD_NUMBER"
-              git remote add origin-wiki "https://${USER}:${GITHUB_TOKEN}@${GH_REPO_DEST}"
+              git remote add origin-wiki "https://${BUILD_USER}:${GITHUB_TOKEN}@${GH_REPO_DEST}"
               git push origin-wiki master
           - name: Update snapshot in consolidated repository
             run: |
                cd ../${REPO_CONSOLIDATE}
-               if [ ! -d ${REPO_DEST} ]; then git submodule add https://${GH_REPO_DEST}; fi;
+               if [ ! -d ${REPO_DEST} ]; then git submodule add https://github.com/${ORG}/${REPO_DEST}.git; fi;
                git submodule init
                git submodule update --recursive --remote
                cd ${REPO_DEST}
@@ -58,6 +58,6 @@ jobs:
                cd ..
                git add .
                git commit -m "${REPO_SOURCE} documentation | Travis CI build number $TRAVIS_BUILD_NUMBER"
-               git remote add origin-wiki "https://${GITHUB_TOKEN}@${GH_REPO_CONSOLIDATE}"
+               git remote add origin-wiki "https://${BUILD_USER}:${BUILD_USER_PASSWD}@github.com/${ORG}/${REPO_CONSOLIDATE}.git"
                git push origin-wiki master
                fi

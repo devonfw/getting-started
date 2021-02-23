@@ -9,7 +9,6 @@ env:
     BUILD_USER: ${{ secrets.BUILD_USER }}
     BUILD_USER_PASSWD: ${{ secrets.BUILD_USER_PASSWD }}
     BUILD_USER_EMAIL:  ${{ secrets.BUILD_USER_EMAIL }}
-    secure: SjDW/60KC9qs9IdFc2KBj0Yx2lIJm08DwMEH/jehphl5LRJFLKj7jIL4kK2tDecOdwoiLpPwQQyzqXbo+5xQOCgOkNQ2PhhSmgv7PfP7D91yjqYA/6xQFBFCp7RyRfK/RqIc
 on:
     push:
         branches:
@@ -20,6 +19,12 @@ jobs:
         if:  ${{github.repository == 'devonfw/getting-started'}}
         runs-on: ubuntu-latest
         steps:
+          - name: setup variables
+            run: |
+             echo "ORG=$(echo '${{ github.repository }}' | awk -F '/' '{print $1}')" >> $GITHUB_ENV
+             echo "REPO_SOURCE=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
+             echo "REPO_DEST=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}').wiki" >> $GITHUB_ENV
+            shell: bash
           - name: Clone necessary repositories
             run: |
                 git clone https://github.com/${ORG}/${REPO_SOURCE}.git ${GH_REPO_DEST}

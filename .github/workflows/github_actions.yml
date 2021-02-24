@@ -33,7 +33,7 @@ jobs:
             run: grep -lr "link:[a-zA-Z0-9_.-]*\.asciidoc\[" . | xargs -r sed -i "s/\(link:[a-zA-Z0-9_.-]*\)\.asciidoc\(\[\)/\1\2/g"
           - name: Terminate Travis CI build when no changes detected
             run: |
-              echo ">"
+                echo ">"
                 git diff-index --quiet HEAD & git status -s
                 echo "<"
                 git status
@@ -47,12 +47,6 @@ jobs:
             run: |
                 git config --global user.email ${BUILD_USER_EMAIL}
                 git config --global user.name ${BUILD_USER}
-          - name: Install imagemagick
-            run: |
-                cd ..
-                sudo apt-get update
-                sudo apt-get install -y imagemagick
-                cd ${REPO_CONSOLIDATE}
           - name: Sync Wiki
             if: ${{ env.TO_BE_CANCELLED == 'false' }}
             run: |
@@ -81,6 +75,12 @@ jobs:
             run: |
               git config --global user.email ${BUILD_USER_EMAIL}
               git config --global user.name ${BUILD_USER}
+          - name: Install imagemagick
+            run: |
+                cd ..
+                sudo apt-get update
+                sudo apt-get install -y imagemagick
+                cd ${REPO_CONSOLIDATE}
           - name : Fix PNG images (getting-started already cloned)
             run : |
               cd ${REPO_SOURCE}

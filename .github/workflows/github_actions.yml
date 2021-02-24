@@ -16,7 +16,7 @@ on:
 name: Documentation
 jobs:
     update-wiki:
-        if:  ${{github.repository == 'devonfw/getting-started'}}
+        if:  "!contains(github.event.head_commit.message, 'PDF devonfw guide | GitHub Actions')"
         runs-on: ubuntu-latest
         steps:
           - name: setup variables

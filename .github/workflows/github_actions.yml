@@ -1,11 +1,5 @@
 env:
-    ORG: "devonfw"
-    REPO_SOURCE: "getting-started"
-    REPO_DEST: "getting-started.wiki"
     REPO_CONSOLIDATE: "devonfw-guide"
-    GH_REPO_SOURCE: "github.com/${ORG}/${REPO_SOURCE}.git"
-    GH_REPO_DEST: "github.com/${ORG}/${REPO_DEST}.git"
-    GH_REPO_CONSOLIDATE: "github.com/${ORG}/${REPO_CONSOLIDATE}.git"
     BUILD_USER: ${{ secrets.BUILD_USER }}
     BUILD_USER_PASSWD: ${{ secrets.BUILD_USER_PASSWD }}
     BUILD_USER_EMAIL:  ${{ secrets.BUILD_USER_EMAIL }}

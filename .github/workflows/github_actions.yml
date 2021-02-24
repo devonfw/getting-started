@@ -12,7 +12,7 @@ env:
 on:
     push:
         branches:
-            - master
+            - develop
 name: Documentation
 jobs:
     update-wiki:
@@ -48,7 +48,7 @@ jobs:
               git config user.name ${BUILD_USER}
               git status
               git add .
-              git commit -m "${REPO_SOURCE} documentation | Travis CI build number $TRAVIS_BUILD_NUMBER"
+              git commit -m "${REPO_SOURCE} documentation | GitHub Actions $GITHUB_WORKFLOW $GITHUB_RUN_NUMBER"
               git remote add origin-wiki "https://${BUILD_USER}:${GITHUB_TOKEN}@${GH_REPO_DEST}"
               git push origin-wiki master
           - name: Update snapshot in consolidated repository
@@ -62,7 +62,28 @@ jobs:
                git pull
                cd ..
                git add .
-               git commit -m "${REPO_SOURCE} documentation | Travis CI build number $TRAVIS_BUILD_NUMBER"
+               git commit -m "${REPO_SOURCE} documentation | GitHub Actions $GITHUB_WORKFLOW $GITHUB_RUN_NUMBER"
                git remote add origin-wiki "https://${BUILD_USER}:${BUILD_USER_PASSWD}@github.com/${ORG}/${REPO_CONSOLIDATE}.git"
                git push origin-wiki master
                fi
+          - name: Generate PDF
+            if : ${{ env.TO_BE_CANCELLED == 'false' }}
+            run: |
+              git config --global user.email ${BUILD_USER_EMAIL}
+              git config --global user.name ${BUILD_USER}
+          - name : Fix PNG images (getting-started already cloned)
+            run : |
+              cd ${REPO_SOURCE}
+              git checkout develop
+              find . -name '*.png' -exec mogrify -interlace none -format png {} +
+              find . -name '*.PNG' -exec mogrify -interlace none -format PNG {} +
+          - name : Generate PDF
+            run : |
+             mvn clean package -Ddocgen.images.dir=images,documentation -Doutput.format=pdf
+             mv ./target/generated-docs/master.pdf ./devonfw_getting_started.pdf
+          - name : Commit and push new getting started
+            run : |
+             git add ./devonfw_getting_started.pdf
+             git commit -m "PDF getting started | GitHub Actions $GITHUB_WORKFLOW $GITHUB_RUN_NUMBER"
+             git remote add origin-pdf "https://${BUILD_USER}:${BUILD_USER_PASSWD}@github.com/${ORG}/${REPO_CONSOLIDATE}.git"
+             git push origin-pdf develop

@@ -32,6 +32,7 @@ jobs:
             shell: bash
           - name: Clean up wiki repository, copy documentation there
             run: |
+                cd ${REPO_DEST} && rm -rf * && cd ..
                 cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/
                 cd ${REPO_DEST}
           - name: Remove .asciidoc file extension from relative links

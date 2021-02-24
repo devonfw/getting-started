@@ -21,8 +21,8 @@ jobs:
             shell: bash
           - name: Clone necessary repositories
             run: |
-                git clone https://github.com/${ORG}/${REPO_SOURCE}.git ${GH_REPO_DEST}
-                git clone https://github.com/${ORG}/${REPO_CONSOLIDATE}.git ${GH_REPO_CONSOLIDATE}
+                git clone https://github.com/${ORG}/${REPO_DEST}.git ${REPO_DEST}
+                git clone https://github.com/${ORG}/${REPO_CONSOLIDATE}.git ${REPO_CONSOLIDATE}
             shell: bash
           - name: Clean up wiki repository, copy documentation there
             run: |

@@ -25,12 +25,6 @@ jobs:
              echo "REPO_SOURCE=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
              echo "REPO_DEST=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}').wiki" >> $GITHUB_ENV
             shell: bash
-          - name: Install imagemagick
-            run: |
-                cd ..
-                sudo apt-get update
-                sudo apt-get install -y imagemagick
-                cd ${REPO_CONSOLIDATE} 
           - name: Clone necessary repositories
             run: |
                 git clone https://github.com/${ORG}/${REPO_SOURCE}.git ${GH_REPO_DEST}
@@ -59,6 +53,12 @@ jobs:
             run: |
                 git config --global user.email ${BUILD_USER_EMAIL}
                 git config --global user.name ${BUILD_USER}
+          - name: Install imagemagick
+            run: |
+                cd ..
+                sudo apt-get update
+                sudo apt-get install -y imagemagick
+                cd ${REPO_CONSOLIDATE}
           - name: Sync Wiki
             if: ${{ env.TO_BE_CANCELLED == 'false' }}
             run: |

@@ -25,6 +25,12 @@ jobs:
              echo "REPO_SOURCE=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
              echo "REPO_DEST=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}').wiki" >> $GITHUB_ENV
             shell: bash
+          - name: Install imagemagick
+            run: |
+                cd ..
+                sudo apt-get update
+                sudo apt-get install -y imagemagick
+                cd ${REPO_CONSOLIDATE} 
           - name: Clone necessary repositories
             run: |
                 git clone https://github.com/${ORG}/${REPO_SOURCE}.git ${GH_REPO_DEST}
@@ -33,39 +39,50 @@ jobs:
           - name: Clean up wiki repository, copy documentation there
             run: |
                 cd ${REPO_DEST} && rm -rf * && cd ..
-                yes | cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/
+                cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/
                 cd ${REPO_DEST}
           - name: Remove .asciidoc file extension from relative links
             run: grep -lr "link:[a-zA-Z0-9_.-]*\.asciidoc\[" . | xargs -r sed -i "s/\(link:[a-zA-Z0-9_.-]*\)\.asciidoc\(\[\)/\1\2/g"
           - name: Terminate Travis CI build when no changes detected
             run: |
-              if git diff-index --quiet HEAD && [ ! -n "$(git status -s)" ]; then 
-              set +e 
-              pkill -9 -P $$ &> /dev/null || true 
-              exit 0
-              else 
-              git config user.email ${BUILD_USER_EMAIL}
-              git config user.name ${BUILD_USER}
-              git status
-              git add .
-              git commit -m "${REPO_SOURCE} documentation | GitHub Actions $GITHUB_WORKFLOW $GITHUB_RUN_NUMBER"
-              git remote add origin-wiki "https://${BUILD_USER}:${GITHUB_TOKEN}@${GH_REPO_DEST}"
-              git push origin-wiki master
-          - name: Update snapshot in consolidated repository
+              echo ">"
+                git diff-index --quiet HEAD & git status -s
+                echo "<"
+                git status
+                echo ">"
+                git diff-index --quiet HEAD & git status -s
+                echo "<"
+                echo "TO_BE_CANCELLED=$(if [[ $(git diff-index --quiet HEAD & git status -s) ]]; then echo "false"; else echo "true"; fi)" >> $GITHUB_ENV
+                echo "$TO_BE_CANCELLED"
+          - name: setup git user
+            if: ${{ env.TO_BE_CANCELLED == 'false' }}
             run: |
-               cd ../${REPO_CONSOLIDATE}
-               if [ ! -d ${REPO_DEST} ]; then git submodule add https://github.com/${ORG}/${REPO_DEST}.git; fi;
-               git submodule init
-               git submodule update --recursive --remote
-               cd ${REPO_DEST}
-               git checkout master
-               git pull
-               cd ..
-               git add .
-               git commit -m "${REPO_SOURCE} documentation | GitHub Actions $GITHUB_WORKFLOW $GITHUB_RUN_NUMBER"
-               git remote add origin-wiki "https://${BUILD_USER}:${BUILD_USER_PASSWD}@github.com/${ORG}/${REPO_CONSOLIDATE}.git"
-               git push origin-wiki master
-               fi
+                git config --global user.email ${BUILD_USER_EMAIL}
+                git config --global user.name ${BUILD_USER}
+          - name: Sync Wiki
+            if: ${{ env.TO_BE_CANCELLED == 'false' }}
+            run: |
+                cd ${REPO_DEST}                
+                git status
+                git add .
+                git commit -m "${REPO_SOURCE} documentation | GitHub Actions $GITHUB_WORKFLOW $GITHUB_RUN_NUMBER"
+                git remote add origin-wiki "https://${BUILD_USER}:${BUILD_USER_PASSWD}@github.com/${ORG}/${REPO_DEST}.git"
+                git push origin-wiki master
+          - name: Update snapshot in consolidated repository
+            if: ${{ env.TO_BE_CANCELLED == 'false' }}
+            run: |
+                cd ${REPO_CONSOLIDATE}
+                if [ ! -d ${REPO_DEST} ]; then git submodule add https://github.com/${ORG}/${REPO_DEST}.git; fi;
+                git submodule init
+                git submodule update --recursive --remote
+                cd ${REPO_DEST}
+                git checkout master
+                git pull
+                cd ..
+                git add .
+                git commit -m "${REPO_SOURCE} documentation | GitHub Actions $GITHUB_WORKFLOW $GITHUB_RUN_NUMBER"
+                git remote add origin-wiki "https://${BUILD_USER}:${BUILD_USER_PASSWD}@github.com/${ORG}/${REPO_CONSOLIDATE}.git"
+                git push origin-wiki master
           - name: Generate PDF
             run: |
               git config --global user.email ${BUILD_USER_EMAIL}

@@ -67,7 +67,7 @@ jobs:
                git push origin-wiki master
                fi
           - name: Generate PDF
-            if : ( !~ /^PDF getting started \| GitHub Actions $GITHUB_WORKFLOW $GITHUB_RUN_NUMBER.*$/)
+            if : ( ! /^PDF getting started \| GitHub Actions $GITHUB_WORKFLOW $GITHUB_RUN_NUMBER.*$/)
             run: |
               git config --global user.email ${BUILD_USER_EMAIL}
               git config --global user.name ${BUILD_USER}

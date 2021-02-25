@@ -75,12 +75,6 @@ jobs:
         run: |
           git config --global user.email ${BUILD_USER_EMAIL}
           git config --global user.name ${BUILD_USER}
-      - name: Install imagemagick
-        run: |
-          cd ..
-          sudo apt-get update
-          sudo apt-get install -y imagemagick
-          cd ${REPO_CONSOLIDATE}
       - name: Fix PNG images (getting-started already cloned)
         run: |
           cd ${REPO_SOURCE}
@@ -91,6 +85,12 @@ jobs:
         run: |
           mvn clean package -Ddocgen.images.dir=images,documentation -Doutput.format=pdf
           mv ./target/generated-docs/master.pdf ./devonfw_getting_started.pdf
+      - name: Install imagemagick
+        run: |
+          cd ..
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          cd ${REPO_CONSOLIDATE}
       - name: Commit and push new getting started
         run: |
           git add ./devonfw_getting_started.pdf

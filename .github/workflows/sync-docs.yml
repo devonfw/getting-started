@@ -19,21 +19,17 @@ jobs:
           echo "REPO_SOURCE=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
           echo "REPO_DEST=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}').wiki" >> $GITHUB_ENV
         shell: bash
-      - name: Clone necessary repositories
-        run: |
-          git clone https://github.com/${ORG}/${REPO_SOURCE}.git ${REPO_SOURCE}
-          git clone https://github.com/${ORG}/${REPO_DEST}.git ${REPO_DEST}
-          git clone https://github.com/${ORG}/${REPO_CONSOLIDATE}.git ${REPO_CONSOLIDATE}
-        shell: bash
+      - name: Checkout ${REPO_SOURCE} Repository
+        run: git clone https://github.com/${ORG}/${REPO_SOURCE}.git ${REPO_SOURCE}
+      - name: Checkout ${REPO_DEST} Repository
+        run: git clone https://github.com/${ORG}/${REPO_DEST}.git ${REPO_DEST}
+      - name: Checkout ${REPO_CONSOLIDATE} Repository
+        run: git clone https://github.com/${ORG}/${REPO_CONSOLIDATE}.git ${REPO_CONSOLIDATE}
       - name: Clean up wiki repository, copy documentation there
         run: |
-          cd ${REPO_DEST} && rm -rf * && cd ..
           cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/
           cd ${REPO_DEST}
-      - name: Remove .asciidoc file extension from relative links
-        run: grep -lr "link:[a-zA-Z0-9_.-]*\.asciidoc\[" . | xargs -r sed -i "s/\(link:[a-zA-Z0-9_.-]*\)\.asciidoc\(\[\)/\1\2/g"
-      - name: Terminate CI build when no changes detected
-        run: |
+          grep -lr "link:[a-zA-Z0-9_.-]*\.asciidoc\[" . | xargs -r sed -i "s/\(link:[a-zA-Z0-9_.-]*\)\.asciidoc\(\[\)/\1\2/g"
           echo ">"
           git diff-index --quiet HEAD & git status -s
           echo "<"

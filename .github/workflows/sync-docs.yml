@@ -27,11 +27,11 @@ jobs:
       - name: Clean up wiki repository, copy documentation there
         run: |
           cd ${REPO_DEST} && rm -rf * && cd ..
-          cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/
+          yes | cp -rf ${REPO_SOURCE}/documentation/* ${REPO_DEST}/
           cd ${REPO_DEST}
       - name: Remove .asciidoc file extension from relative links
         run: grep -lr "link:[a-zA-Z0-9_.-]*\.asciidoc\[" . | xargs -r sed -i "s/\(link:[a-zA-Z0-9_.-]*\)\.asciidoc\(\[\)/\1\2/g"
-      - name: Terminate Travis CI build when no changes detected
+      - name: Terminate CI build when no changes detected
         run: |
           echo ">"
           git diff-index --quiet HEAD & git status -s

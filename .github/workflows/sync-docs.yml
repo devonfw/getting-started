@@ -56,7 +56,7 @@ jobs:
       - name: Update snapshot in consolidated repository
         if: ${{ env.TO_BE_CANCELLED == 'false' }}
         run: |
-          cd../ ${REPO_CONSOLIDATE}
+          cd../${REPO_CONSOLIDATE}
           if [ ! -d ${REPO_DEST} ]; then git submodule add https://github.com/${ORG}/${REPO_DEST}.git; fi;
           git submodule init
           git submodule update --recursive --remote

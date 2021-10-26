@@ -19,7 +19,7 @@ endif::[]
 
 = Basics of enterprise software development with devonfw
 
-Many students or young engineers starting their first job in software development are not aquainted with enterprise software development technologies or higher concepts of programming.
+Many students or young engineers starting their first job in software development are not acquainted with enterprise software development technologies or higher concepts of programming.
 
 We aim to introduce some of these topics here ...
 

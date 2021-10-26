@@ -31,7 +31,7 @@ image:images/further-info/teams.png[Microsoft Teams Icon, 25] https://teams.micr
 
 == Yammer
 
-Our corporate Yammer channel is accessible to Capgemini employees and members. If you are looking for information or feedback on current and planned projects regarding devonfw, we reccomend you ask around here first.
+Our corporate Yammer channel is accessible to Capgemini employees and members. If you are looking for information or feedback on current and planned projects regarding devonfw, we recommend you ask around here first.
 
 image:images/further-info/yammer.png[Yammer Icon, 25] https://www.yammer.com/capgemini.com/#/threads/inGroup?type=in_group&feedId=5030942[devonfw Corporate Yammer]
 

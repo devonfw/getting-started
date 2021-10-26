@@ -52,13 +52,13 @@ For client applications, _devonfw_ includes two solutions based on _TypeScript_,
 == Custom Tools
 
 === devonfw-ide
-The https://github.com/devonfw/ide/wiki#devonfw-ide[devonfw-ide] is _not_ one monolithic program that is installed with a traditional executable; rather it's a collection of scripts which are invoked via command line to automate several, repetetive development tasks. These scripts then interact with other tools, frameworks, and third-party IDEs to streamline the development workflow.
+The https://github.com/devonfw/ide/wiki#devonfw-ide[devonfw-ide] is _not_ one monolithic program that is installed with a traditional executable; rather it's a collection of scripts which are invoked via command line to automate several, repetitive development tasks. These scripts then interact with other tools, frameworks, and third-party IDEs to streamline the development workflow.
 
 image::images/introduction/devonfw-ide.png[,width="550", link="images/introduction/devonfw-ide.png"]
 
 The advantage of this approach is, that you can have as many instances of the _devonfw-ide_ on your machine as you need -- for different projects with different tools, tool versions and configurations. No need for a physical installation and no tweaking of your operating system required!
 
-Instances of the devonfw-ide do not interfere with each other, nor with other installed software. The package size of the _devonfw-ide_ is initally very small, the setup is simple, and the included software is portable.
+Instances of the devonfw-ide do not interfere with each other, nor with other installed software. The package size of the _devonfw-ide_ is initially very small, the setup is simple, and the included software is portable.
 
 ==== IDEs
 It supports the following IDEs:

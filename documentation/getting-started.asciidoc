@@ -12,7 +12,7 @@ Please refer our <<devonfw-ide-introduction.asciidoc.asciidoc#setup.asciidoc, de
 
 == Guides
 
-Our goal is to provide a smooth starting experience to all users of _devonfw_, no matter how experienced they are or what their stakeholder role is. To achieve this, we provide a list of recommended guides here: 
+Our aim is to provide a smooth starting experience to all users of _devonfw_, no matter how experienced they are or what their stakeholder role is. To achieve this, we provide a list of recommended guides here: 
 
 *For Students and Junior Engineers:*
 

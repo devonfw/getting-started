@@ -51,6 +51,6 @@ image:images/guide/run-mythaistar.png[Running the MyThaiStar Backend]
 
 . Execute: `ng serve`
 
-. Once started, the frontend will be available at http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password `waiter` and take a look at the various functionalities provided by MyThaiStar.
+. Once started, the front-end will be available at http://localhost:4200/restaurant[localhost:4200/restaurant]. Login with the username and password `waiter` and take a look at the various functionalities provided by MyThaiStar.
 
 You should now take a look at both the front- and backend code and familiarize yourself with its structure and concepts, since most devonfw projects follow this exemplary implementation. Please visit the _architecture overview_ pages of https://github.com/devonfw/devon4ng/wiki/architecture[devon4ng] and https://github.com/devonfw/devon4j/wiki/architecture[devon4j] to learn more about the internal workings of front- and backend.

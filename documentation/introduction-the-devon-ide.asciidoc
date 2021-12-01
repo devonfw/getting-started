@@ -189,7 +189,7 @@ Additional settings (such as markers for new issues) are available through Windo
 
 image::images/introduction/devon-ide/eclipse-settings.png["eclipse-settings", width = "450" , link="images/introduction/devon-ide/eclipse-settings.png"]
 
-To look for sonarqube analyzed issue, go to Window->Show View-> Others->SonarLint->SonarLint Issues.
+To look for SonarQube analyzed issue, go to Window->Show View-> Others->SonarLint->SonarLint Issues.
 Now you can see issues in soanrqube issues tab as shown
 
 image::images/introduction/devon-ide/sonarQube-issues-view.png["sonarQube-issues-view", width = "450" , link="images/introduction/devon-ide/sonarQube-issues-view.png"]

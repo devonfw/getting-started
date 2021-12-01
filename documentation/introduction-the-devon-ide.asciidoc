@@ -181,7 +181,7 @@ image::images/introduction/devon-ide/change-link-with-project.png["change-link-w
 
 To do so, right-click on the project in the Project Explorer, and then SonarQube > Remove SonarQube Nature.
 
-`image::images/introduction/devon-ide/unlink-with-project.png["unlink-with-project", width = "450" , link="images/introduction/devon-ide/unlink-with-project.png"]`
+image::images/introduction/devon-ide/unlink-with-project.png["unlink-with-project", width = "450" , link="images/introduction/devon-ide/unlink-with-project.png"]
 
 *Advanced Configuration*
 

@@ -67,7 +67,7 @@ image::images/introduction/download-install/run_env_sh.png[, width="550", run_en
 
 * Run the script: . create-or-update-workspace
 
-`image::images/introduction/download-install/create_update_ws.png[, width="550", create_update_ws, link="images/download-install/create_update_ws.png"]`
+image::images/introduction/download-install/create_update_ws.png[, width="550", create_update_ws, link="images/download-install/create_update_ws.png"]
 
 These both . env.sh and . create-or-update-workspace will set PATH for all the software included with devon distribution like: eclipse, maven, java etc. Also this will generate some file like eclipse_main used to invoke eclipse.
 

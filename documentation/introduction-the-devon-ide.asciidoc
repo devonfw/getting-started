@@ -147,7 +147,7 @@ SonarLint has got a very efficient way of navigating, a balance between high-lev
 IDE comes preinstalled with SonarLint.
 To configure it , please follow below steps:
 
-First of all, you need to start sonar service. For that, go to software folder which is extracted from Devon-dist zip, choose sonarqube->bin-><choose appropriate folder according to your OS>-->and execute startSonar bat file.
+First of all, you need to start sonar service. For that, go to software folder which is extracted from Devon-dist zip, choose `sonarqube->bin-><choose` appropriate folder according to your OS>-->and execute startSonar bat file.
 
 If your project is not already under analysis, you'll need to declare it through the SonarQube web interface as described http://docs.sonarqube.org/display/SONAR/Project+Existence[here].
 Once your project exists in SonarQube, you're ready to get started with SonarQube in Eclipse.
@@ -157,9 +157,9 @@ You can edit this server, delete it or add new ones.By default, user and passwor
 
 image::images/introduction/devon-ide/Sonar_add_server.png["Sonar_add_server", width = "450" , link="images/introduction/devon-ide/Sonar_add_server.png"]
 
-For getting a project analysed on sonar, refer this http://docs.sonarqube.org/display/SONAR/Analyzing+Source+Code [link].
+For getting a project analyzed on sonar, refer this http://docs.sonarqube.org/display/SONAR/Analyzing+Source+Code [link].
 
-Linking a project to one analysed on sonar server.
+Linking a project to one analyzed on sonar server.
 
 image::images/introduction/devon-ide/associate-sonarqube.png["associate-sonarqube", width = "450" , link="images/introduction/devon-ide/associate-sonarqube.png"]
 
@@ -181,7 +181,7 @@ image::images/introduction/devon-ide/change-link-with-project.png["change-link-w
 
 To do so, right-click on the project in the Project Explorer, and then SonarQube > Remove SonarQube Nature.
 
-image::images/introduction/devon-ide/unlink-with-project.png["unlink-with-project", width = "450" , link="images/introduction/devon-ide/unlink-with-project.png"]
+`image::images/introduction/devon-ide/unlink-with-project.png["unlink-with-project", width = "450" , link="images/introduction/devon-ide/unlink-with-project.png"]`
 
 *Advanced Configuration*
 
@@ -189,7 +189,7 @@ Additional settings (such as markers for new issues) are available through Windo
 
 image::images/introduction/devon-ide/eclipse-settings.png["eclipse-settings", width = "450" , link="images/introduction/devon-ide/eclipse-settings.png"]
 
-To look for sonarqube analysed issue, go to Window->Show View-> Others->SonarLint->SonarLint Issues.
+To look for sonarqube analyzed issue, go to Window->Show View-> Others->SonarLint->SonarLint Issues.
 Now you can see issues in soanrqube issues tab as shown
 
 image::images/introduction/devon-ide/sonarQube-issues-view.png["sonarQube-issues-view", width = "450" , link="images/introduction/devon-ide/sonarQube-issues-view.png"]

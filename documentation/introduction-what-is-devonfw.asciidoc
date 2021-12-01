@@ -29,7 +29,7 @@ TIP: The devonfw _name_ is a registered trademark of image:images/introduction/C
 
 == Building Blocks of the Platform
 
-image::images/introduction/devonfwcatalog.png[,width="650",devonfw Building blocks,link="images/introduction/devonfwcatalog.png"]
+`image::images/introduction/devonfwcatalog.png[,width="650",devonfw Building blocks,link="images/introduction/devonfwcatalog.png"]`
 
 _devonfw_ uses a state-of-the-art, open source, core reference architecture for the server (these days considered a commodity in the IT-industry) and on top of that an ever increasing number of high-value assets, which are developed by Capgemini.
 

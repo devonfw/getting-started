@@ -34,7 +34,7 @@ In order to setup the environment, following are the prerequisites:
 == Download
 IMPORTANT: Please refer to the https://github.com/devonfw/ide/wiki[devonfw-ide] documentation for the **current installation process**.
 
-Older devonfw distributions can be obtained from the http://de-mucevolve02/files/devonfw/[FTP releases library] and are packaged in a ZIP file that includes all the needed tools, software and configurations. Browse to the corresponding version folder in order to get the latest version. 
+Older devonfw distributions can be obtained from the `http://de-mucevolve02/files/devonfw/[FTP releases library]` and are packaged in a ZIP file that includes all the needed tools, software and configurations. Browse to the corresponding version folder in order to get the latest version. 
 
 == Setup the Workspace for Older Versions
 
@@ -67,7 +67,7 @@ image::images/introduction/download-install/run_env_sh.png[, width="550", run_en
 
 * Run the script: . create-or-update-workspace
 
-image::images/introduction/download-install/create_update_ws.png[, width="550", create_update_ws, link="images/download-install/create_update_ws.png"]
+`image::images/introduction/download-install/create_update_ws.png[, width="550", create_update_ws, link="images/download-install/create_update_ws.png"]`
 
 These both . env.sh and . create-or-update-workspace will set PATH for all the software included with devon distribution like: eclipse, maven, java etc. Also this will generate some file like eclipse_main used to invoke eclipse.
 

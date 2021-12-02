@@ -69,7 +69,7 @@ You can create custom configurations using the plugin's CheckStyle configuration
 
 You can see violations in your workspace as shown in below figure.
 
-image::images/introduction/devon-ide/checkstyle.png["checkstyle", width = "450" , link="images/introduction/devon-ide/checkstyle.png"]
+image::images/introduction/devon-ide/checkstyle.png["CheckStyle", width = "450" , link="images/introduction/devon-ide/checkstyle.png"]
 
 ==== Usage
 
@@ -126,7 +126,7 @@ image::images/introduction/devon-ide/FindBugs2.png["error analysis",width="450",
 Plugin provides specialized views to see the reported error messages. Select Window → Show View → Other... to access the views.
 The FindBugs error messages are also displayed in the Problems view or as decorators in the Package Explorer view.
 
-image::images/introduction/devon-ide/FindBugs3.png["ShowView bug Explorer",width="450",link="images/introduction/devon-ide/FindBugs3.png"]
+image::images/introduction/devon-ide/FindBugs3.png["Show View bug Explorer",width="450",link="images/introduction/devon-ide/FindBugs3.png"]
 
 image::images/introduction/devon-ide/FindBugs4.png["bug Explorer",width="450",link="images/introduction/devon-ide/FindBugs4.png"]
 
@@ -161,7 +161,7 @@ For getting a project analyzed on sonar, refer this http://docs.sonarqube.org/di
 
 Linking a project to one analyzed on sonar server.
 
-image::images/introduction/devon-ide/associate-sonarqube.png["associate-sonarqube", width = "450" , link="images/introduction/devon-ide/associate-sonarqube.png"]
+image::images/introduction/devon-ide/associate-sonarqube.png["associate-SonarQube", width = "450" , link="images/introduction/devon-ide/associate-sonarqube.png"]
 
 In the SonarQube project text field, start typing the name of the project and select it in the list box:
 
@@ -192,6 +192,6 @@ image::images/introduction/devon-ide/eclipse-settings.png["eclipse-settings", wi
 To look for SonarQube analyzed issue, go to Window->Show View-> Others->SonarLint->SonarLint Issues.
 Now you can see issues in soanrqube issues tab as shown
 
-image::images/introduction/devon-ide/sonarQube-issues-view.png["sonarQube-issues-view", width = "450" , link="images/introduction/devon-ide/sonarQube-issues-view.png"]
+image::images/introduction/devon-ide/sonarQube-issues-view.png["SonarQube-issues-view", width = "450" , link="images/introduction/devon-ide/sonarQube-issues-view.png"]
 
 Or you can go to link http://localhost:9000 and login with admin as id and admin as password and goto Dashboard.you can see all the statistics of analysis of the configured projects on sonar server.

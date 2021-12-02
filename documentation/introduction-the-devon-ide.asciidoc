@@ -78,24 +78,24 @@ So, once projects are created, follow steps mentioned below, to activate CheckSt
 [start=1]
 . Open the properties of the project you want to get checked.
 
-image::images/introduction/devon-ide/checkstyle2.png["checkstyle2", width = "450" , link="images/introduction/devon-ide/checkstyle2.png"]
+image::images/introduction/devon-ide/checkstyle2.png["CheckStyle2", width = "450" , link="images/introduction/devon-ide/checkstyle2.png"]
 
 [start=2]
 . Select the CheckStyle section within the properties dialog.
 
-image::images/introduction/devon-ide/checkstyle3.png["checkstyle3", width = "450" , link="images/introduction/devon-ide/checkstyle3.png"]
+image::images/introduction/devon-ide/checkstyle3.png["CheckStyle3", width = "450" , link="images/introduction/devon-ide/checkstyle3.png"]
 
 [start=3]
 . Activate CheckStyle for your project by selecting the CheckStyle active for this project check box and press OK
 
-image::images/introduction/devon-ide/checkstyle4.png["checkstyle4", width = "450" , link="images/introduction/devon-ide/checkstyle4.png"]
+image::images/introduction/devon-ide/checkstyle4.png["CheckStyle4", width = "450" , link="images/introduction/devon-ide/checkstyle4.png"]
 
 Now CheckStyle should begin checking your code. This may take a while depending on how many source files your project contains.
 The CheckStyle Plug-in uses background jobs to do its work - so while CheckStyle audits your source files you should be able to continue your work.
 After CheckStyle has finished checking your code please look into your Eclipse Problems View.
 There should be some warnings from CheckStyle. This warnings point to the code locations where your code violates the pre-configured Checks configuration.
 
-image::images/introduction/devon-ide/checkstyle5.png["checkstyle5", width = "450" , link="images/introduction/devon-ide/checkstyle5.png"]
+image::images/introduction/devon-ide/checkstyle5.png["CheckStyle5", width = "450" , link="images/introduction/devon-ide/checkstyle5.png"]
 
 You can navigate to the problems in your code by double-clicking the problem in you problems view.
 On the left hand side of the editor an icon is shown for each line that contains a CheckStyle violation. Hovering with your mouse above this icon will show you the problem message.

@@ -53,7 +53,7 @@ image::images/introduction/devon_quality_agility.png[,width="300", link="images/
 
 * Focus on business functionality, not on technicalities.
 * Shorter release cycles.
-* DevOps by design -- Infrastructure as Code.
+* DevOPS by design -- Infrastructure as Code.
 * Continuous Delivery pipeline.
 * On- and off-premise flexibility.
 * PoCs and prototypes in days not months.
@@ -75,4 +75,4 @@ The devonfw platform provides:
 * Highly integrated and packaged development environment based around Eclipse and Jenkins. You will be ready to start implementing your first customer-specific use case in 2h time.
 * Iterative eclipse-based code-generator that understands "Java" and works on higher architectural concepts than Java-classes.
 * An example application as a reference implementation.
-* Support through a large community + industrialization services (Standard Platform as a Service) available in the iProd service catalog.
+* Support through a large community + industrialization services (Standard Platform as a Service) available in the `iProd` service catalog.

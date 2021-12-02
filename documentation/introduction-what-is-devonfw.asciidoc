@@ -46,7 +46,7 @@ For server applications, _devonfw_ includes the following solutions:
 === Front-End solutions
 For client applications, _devonfw_ includes two solutions based on _TypeScript_, _JavaScript_, _C#_ and _.NET_:
 
-* https://github.com/devonfw/devon4ng[devon4ng]: Frontend implementation based on https://angular.io/[Angular] and a hybrid mobile implementation based on https://ionicframework.com/[Ionic].
+* https://github.com/devonfw/devon4ng[devon4ng]: Front-end implementation based on https://angular.io/[Angular] and a hybrid mobile implementation based on https://ionicframework.com/[Ionic].
 * https://github.com/devonfw/devon4x[devon4X]: Mobile implementation based on https://docs.microsoft.com/xamarin/[Xamarin].
 
 == Custom Tools

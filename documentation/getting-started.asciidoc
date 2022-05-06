@@ -38,6 +38,7 @@ But the least of them keep track of the license obligations or do at all provide
 Solicitor creates an inventory of your software and evaluates them based on a defined rule set.
 
 *Jump In*
+
 You're asking yourself now "Wow that's pretty cool, how can I use it?".
 We thought you would and prepared some https://www.katacoda.com/devonfw[Katacoda tutorials] for you. 
 

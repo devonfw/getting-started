@@ -1,6 +1,6 @@
 ==== Introduction
 
-* link:introduction-what-is-devonfw[What is devonfw?]
+* link:getting-started[What is devonfw?]
 
 * link:introduction-why-should-i-use-devonfw[Why should I use devonfw?]
 
@@ -13,8 +13,6 @@
 // * link:guide-enterprise-dev-basics.asciidoc[Basics of Enterprise Software Development.]
 
 * link:guide-sample-application.asciidoc[Explore the devonfw sample application.]
-
-* link:guide-first-application.asciidoc[Build your first application with *devon4j/devon4ng*.]
 
 * https://github.com/devonfw/devon4node/blob/develop/documentation/samples-step-by-step.asciidoc[Create an application with *devon4node*.]
 

@@ -54,4 +54,4 @@ include::guide-sample-application[leveloffset=+1]
 
 include::further-info-repo-overview[leveloffset=+1]
 
-include::further-info-community-links[leveloffset+1]
+include::further-info-community-links[leveloffset=+1]

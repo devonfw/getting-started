@@ -40,11 +40,11 @@ Solicitor creates an inventory of your software and evaluates them based on a de
 *Jump In*
 
 You're asking yourself now "Wow that's pretty cool, how can I use it?".
-We thought you would and prepared some https://www.katacoda.com/devonfw[Katacoda tutorials] for you. 
+We thought you would and prepared some https://killercoda.com/devonfw[Killercoda tutorials] for you. 
 
 We recommend to start with the https://github.com/devonfw/jump-the-queue[JumpTheQueue]  scenario. You can start by following the steps of the tutorial on the https://github.com/devonfw/jump-the-queue[github repository] or with our interactive tutorial 
-[.katacoda-links]
-https://katacoda.com/devonfw/scenarios/jumpthequeue[JumpTheQueue Katacoda Scenario]
+
+https://killercoda.com/devonfw/scenario/JumpTheQueue[JumpTheQueue Killercoda Scenario]
 
 If you're interested in a real world example completely build with devonfw, take a look at our link:guide-sample-application.asciidoc[sample application.]
 
